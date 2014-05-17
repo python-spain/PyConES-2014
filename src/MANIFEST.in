@@ -1,0 +1,3 @@
+recursive-include pycones/templates *
+recursive-include pycones/static *
+

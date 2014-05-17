@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" /><![endif]-->
+
+        <title>PyCon 2014 - Zaragoza  </title>
+        <meta name="description" content="Comunidad internacional de python -
+        Evento nacional 2014">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="{{ url_for('static',
+        filename='css/bootstrap.min.css') }}">
+
+        <link type="image/png" href="/static/img/favicon.png" rel="icon"/>
+
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="{{ url_for('static',
+            filename='css/bootstrap-theme.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static',
+            filename='css/main.css') }}">
+
+        <script src="{{ url_for('static',
+            filename='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js') }}"></script>
+    </head>
+    <body>
+    <div class="container">
+     <div class="page-header" id="banner">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>PyConEs 2014 - Zaragoza</h1>
+            <p class="lead">Centro de Arte y tecnología Etopia, Noviembre 2014</p>
+          </div>
+          <div class="col-lg-6" style="padding: 15px 15px 0 15px;">
+            <h2> Organizadores </h2>
+            <div class="well sponsor" style="min-height:100px;">
+              <a href="http://www.dlabs.co">
+                  <img alt="Dlabs logo" style="float: left; margin-right: 15px;" class=col-md-6 src="{{url_for('static', filename='img/dlabs.png')}}" />
+              </a>
+
+              <a href="http://es.python.org">
+                  <img alt="Python España logo" style="float: left; margin-right: 15px;" class=col-md-2  src="{{url_for('static', filename='img/pythones.png')}}" />
+                  <span style="
+                    margin-top: 10px;
+                    display: inline-block;
+                    margin-left: -20px;
+                    font-weight: bolder;
+                    color: #303030;
+                    font-size:1.3em;
+                 ">
+                 Python España
+                 </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+      <div class="container">
+
+        <div class=col-lg-6>
+            <h2> Acerca de </h2>
+            <p class=lead>
+                PyConES es la conferencia dedicada de forma exclusiva al
+                lenguaje de programación Python.<br/>
+                Tras el éxito de la anterior edición en la universidad politecnica de madrid, este año se celebrará en Zaragoza.
+                PyConEs2014 está organizada por el hackerspace de zaragoza, <a href="http://dlabs.co">Dlabs.co</a> con la colaboración de la asociación <a href="http://es.python.org"> Python España </a> y el <a href="http://plus.google.com/communities/103281359456269063508"> Grupo de usuarios de Python Zaragoza</a>
+            </p>
+        </div>
+        <div class=col-lg-6>
+            <h2> Como participar </h2>
+            <p class=lead>
+                ¡La conferencia todavía se está gestando!<br/> Estamos trabajando duro para poder ofreceros una PyConEs espectacular.
+                PyConEs se construye entre todos, ¡<a href="mailto:PyConEs2014_colaboradores@lists.es.python.org">Contacta con nosotros</a> si quieres colaborar!
+            </p>
+        </div>
+      </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
