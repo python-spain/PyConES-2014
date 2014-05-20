@@ -1,4 +1,4 @@
-PyConEs2014
+PyConES2014
 ===========
 
-Web de la pycones2014 2014.es.pycon.org
+Web de la PyConES2014 http://2014.es.pycon.org
