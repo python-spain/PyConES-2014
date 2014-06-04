@@ -14,6 +14,8 @@
 
         <link rel="stylesheet" href="{{ url_for('static',
         filename='css/bootstrap.min.css') }}">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300'
+        rel='stylesheet' type='text/css'>
 
         <link type="image/png" href="/static/img/favicon.png" rel="icon"/>
 
@@ -30,6 +32,11 @@
 
         <script src="{{ url_for('static',
             filename='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js') }}"></script>
+        <style>
+            p.lead{
+                font-family: 'Open Sans', sans-serif;
+            }
+        </style>
     </head>
     <body>
     <div class="container">
@@ -41,7 +48,7 @@
           </div>
           <div class="col-lg-6" style="padding: 15px 15px 0 15px;">
             <h2> Organizadores </h2>
-            <div class="well sponsor" style="min-height:100px;">
+            <div class=" sponsor" style="min-height:100px;">
               <a href="http://www.dlabs.co">
                   <img alt="Dlabs logo" style="float: left; margin-right: 15px;" class="col-md-6 img-responsive" src="{{url_for('static', filename='img/dlabs.png')}}" />
               </a>
@@ -66,21 +73,116 @@
   </div>
       <div class="container">
 
-        <div class=col-lg-6>
+        <div class=col-lg-12>
             <h2> Acerca de </h2>
             <p class=lead>
-                PyConES es la conferencia dedicada de forma exclusiva al lenguaje de programación Python.<br/>
-                Tras el éxito de la anterior edición en la Universidad Politécnica de Madrid, este año se celebrará en Zaragoza. PyConES2014 está organizada por el hackerspace de Zaragoza, <a href="http://dlabs.co" target="_new">Dlabs.co</a> con la colaboración de la asociación <a href="http://es.python.org" target="_new"> Python España </a> y el <a href="http://plus.google.com/communities/103281359456269063508" target="_new"> Grupo de usuarios de Python Zaragoza</a>
+                PyConEs es la conferencia nacional de Python con mayor relevancia de España.
+                <br/>
+                PyConES celebrará su segunda edición, tras el éxito de la
+                desarrollada el pasado año en Madrid, bajo el formato del
+                evento mundial <a href="http://pycon.org">PyCon</a>. En esta ocasión, la
+                organización recae en el hackerspace de Zaragoza, Dlabs con la
+                colaboración de la asociación Python España y el Grupo de Python
+                Zaragoza.
+
             </p>
         </div>
-        <div class=col-lg-6>
+          <div class=col-lg-12>
+              <h2> Acerca de Dlabs </h2>
+              <p class="lead">
+
+              Un hackerspace es un sitio físico donde gente con diversos
+              intereses se puede conocer, socializar y colaborar. DLabs nos
+              brinda un espacio donde unirnos personas de diversos trasfondos y
+              especialidades compartiendo conocimientos y materiales creando una
+              especie de laboratorio de desarrollo abierto. Ahora mismo el
+              hackerspace cuenta con una veintena de socios que coordinaran y
+              organizaran el evento de este año junto a otros voluntarios.
+              </p>
+          </div>
+          <div class=col-lg-12>
+              <h2>Zaragoza - Noviembre 2014</h2><blockquote><small><cite title="Etopia - Centro de Arte y
+              Tecnología">Etopia - Centro de arte y tecnología de Milla
+              Digital</cite></small></blockquote>
+              <h4> Zaragoza </h4>
+              <p class="lead">
+                    Zaragoza es la quinta ciudad española por tamaño. Está enclavada a mitad de
+                    camino entre Madrid y Barcelona, con buenas comunicaciones por carretera y tren
+                    de alta velocidad, y cuenta con una buena oferta hostelera, gastronómica y de
+                    ocio nocturno, lo que la hace una ciudad ideal para la celebración de congresos.
+                    </p>
+                  <h4> Etopia </h4>
+                  <p class=lead>
+                   El Centro de Arte y Tecnología de Zaragoza es un equipamiento de
+                   nueva generación diseñado para albergar y promover los proyectos
+                   creativos y emprendedores más innovadores dentro del espacio de
+                   la Milla Digital. Una potente instalación con una superficie
+                   total construída de más de 16.000 m2 que funcionará al mismo
+                   tiempo como centro de cultura contemporánea, escaparate de las
+                   expresiones artísticas más vanguardistas, taller para creadores y
+                   tecnológos, espacio de formación especializada en los nuevos
+                   ámbitos surgidos por la intersección del arte y la tecnología,
+                   laboratorio de ideas para la ciudad digital e incubadora de
+                   nuevas empresas del sector de los contenidos.
+                  </p>
+          </div>
+
+        <div class=col-lg-12>
             <h2> Cómo participar </h2>
             <p class=lead>
                 ¡La conferencia todavía se está gestando!<br/> Estamos trabajando duro para poder ofreceros una PyConES espectacular.
-                PyConES se construye entre todos, ¡<a href="mailto:PyConES2014_colaboradores@lists.es.python.org">Contacta con nosotros</a> si quieres colaborar!<br/>
-                Y aquí puedes darte de alta en la lista o consultar los archivos: <a href="https://lists.es.python.org/listinfo/pycones2014_colaboradores" target="_new">https://lists.es.python.org/listinfo/pycones2014_colaboradores</a>.
+            </p>
+            <p class=lead>
+                Actualmente puedes acceder a los siguientes recursos:
+                <ul>
+                    <li><a href="https://lists.es.python.org/listinfo/pycones2014_colaboradores" target="_new"> Correo electrónico de colaboradores</a></li>
+                    <li><a href="mailto:pycon2014@dlabs.co"> Correo interno de organización de Dlabs Hackerspace </a></li>
+                    <li> <a href="https://trello.com/b/qlhISlt0/pycon2014"> Trello público </a></li>
+                </ul>
             </p>
         </div>
+      <div class=row>
+          <div class=col-lg-12>
+              <h2> Patrocinadores </h2>
+              <p class="lead">
+                <img alt="Etopia logo" style="float: left; margin-right: 15px;" class="col-md-6 img-responsive" src="{{url_for('static', filename='img/etopia.png')}}" />
+              </p>
+          </div>
+          <div class=col-lg-12>
+              <p class="lead">
+              <br/>
+                ¡Tu también puedes patrocinar PyConEs!
+                <br/><!--
+                Más información: PDF de patrocinio
+                -->
+                Todavía estamos trabajando para ofrecerte un documento de
+                patrocinio con todos los detalles que necesitas, pero puedes
+                ponerte en contacto con nosotros <a
+                    href="mailto:pycon2014@dlabs.co">aquí</a>
+          </div>
+      </div>
+      <div class=row>
+          <div class=col-lg-12>
+              <h2>  </h2>
+              <p class="lead">
+              </p>
+          </div>
+      </div>
+
+      <div class=row>
+          <div class=col-lg-12>
+              <h2> </h2>
+              <p class="lead">
+              </p>
+          </div>
+      </div>
+
+      <div class=row>
+          <div class=col-lg-12>
+              <h2> </h2>
+              <p class="lead">
+              </p>
+          </div>
       </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
