@@ -5,6 +5,10 @@ app = Flask(__name__)
 app.config['DEBUG'] = True
 app.secret_key = "SECRETKEY"
 
+@app.route('/en/', methods=['GET'])
+def indexen():
+    return render_template('index.en.html')
+
 @app.route('/', methods=['GET'])
 def index():
     return render_template('index.html')
