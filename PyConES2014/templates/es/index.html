@@ -1,85 +1,8 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" /><![endif]-->
-
-        <title>PyConES 2014 - Zaragoza  </title>
-        <meta name="description" content="Conferencia de Python en España - Evento nacional 2014">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="{{ url_for('static',
-        filename='css/bootstrap.min.css') }}">
-        <link rel="stylesheet"
-        href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-        />
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300'
-        rel='stylesheet' type='text/css'>
-
-        <link type="image/png" href="/static/img/favicon.png" rel="icon"/>
-
-        <style>
-            body {
-                padding-bottom: 20px;
-            }
-            .uppercase{
-                text-transform:uppercase;
-            }
-            p.lead{
-                font-family: 'Open Sans', sans-serif;
-            }
-
-        </style>
-        <link rel="stylesheet" href="{{ url_for('static',
-            filename='css/bootstrap-theme.min.css') }}">
-        <link rel="stylesheet" href="{{ url_for('static',
-            filename='css/main.css') }}">
-
-        <script src="{{ url_for('static',
-            filename='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js') }}"></script>
-        <style>
-        </style>
-    </head>
-    <body>
-    <div class="container">
-     <div class="page-header" id="banner">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h1>PyConES 2014 - Zaragoza</h1>
-            <p class="lead">Centro de Arte y Tecnología Etopia, 8-9 de Noviembre 2014</p>
-          </div>
-          <div class="col-lg-12" style="padding: 15px 15px 0 15px;">
-            <div class=" center-block sponsor" style="width:60%; min-height:100px;">
-              <a href="http://www.dlabs.co">
-                  <img alt="Dlabs logo" style="float: left; width:50%; margin-right: 15px;" class="img-responsive" src="{{url_for('static', filename='img/dlabs.png')}}" />
-              </a>
-
-              <a href="http://es.python.org">
-                  <img alt="Python España logo" style="width:100px; float: left; margin-right: 15px;" class="img-responsive"  src="{{url_for('static', filename='img/pythones.png')}}" />
-                  <span style="
-                    margin-top: 10px;
-                    display: inline-block;
-                    margin-left: -20px;
-                    font-weight: bolder;
-                    color: #303030;
-                    font-size:1.3em;
-                 ">
-                 Python España
-                 </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
-      <div class="container">
-
+{% extends 'base.html' %}
+{% block body %}
       <div class=row>
         <div class=col-lg-12>
-            <h1 class="text-primary text-center"> ¿Qué es PyConES 2014? </h1>
+            <h1 id=acercade class="scrollto text-primary text-center"> ¿Qué es PyConES 2014? </h1>
             <p class="lead uppercase text-center">
             PyConES es la conferencia nacional de Python<br/> con mayor relevancia de España.
             </p>
@@ -139,7 +62,8 @@
 
       <div class=row>
         <div class=col-lg-12>
-            <h1 class="text-primary text-center"> Lugar </h1>
+
+            <h1 id=comollegar class=" scrollto text-primary text-center"> Lugar </h1>
             <p class="lead uppercase text-center">
                 Etopia - Centro de Arte y Tecnología
             </p>
@@ -164,16 +88,25 @@
     <br/>
       <div class=row>
           <div class=col-lg-12>
-            <h1 class="text-primary text-center">Patrocinadores</h1>
+            <h1 id=patrocinadores class="scrollto text-primary text-center">Patrocinadores</h1>
             <p class=lead>
-              <p class="lead">
-                <img alt="Etopia logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/etopia.png')}}" />
-                <img alt="telefonica logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/telefonica.png')}}" />
-                <img alt="qdqmedia logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/qdqmedia.png')}}" />
+              <p class="lead text-center">
+              <h3 class=text-center style="clear:both"> Platino </h3>
+                <img alt="Etopia logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/etopia.png')}}" />
+                <img alt="psf logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/psf.png')}}" />
+              <h3 class=text-center  style="clear:both" > Oro </h3>
+                <img alt="qdqmedia logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/qdqmedia.png')}}" />
+                <img alt="scrapinghub logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/scrapinghub.png')}}" />
+              <h3 class=text-center  style="clear:both" > Plata </h3>
+                <img alt="telefonica logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/telefonica.png')}}" />
+                <img alt="logo logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/logo.gif')}}" />
+              <h3 class=text-center  style="clear:both" > Colaboradores </h3>
+                <img alt="gaceta logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/gaceta.png')}}" />
+                <img alt="pycharm logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/pycharm.png')}}" />
+                <img alt="github logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/github.png')}}" />
+                <img alt="ticketea logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/ticketea.png')}}" />
               </p>
             <p class=lead>
-                <img alt="psf logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/psf.png')}}" />
-                <img alt="logo logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/logo.gif')}}" />
             </p>
           </div>
           <div class=col-lg-12>
@@ -188,16 +121,10 @@
                 Puedes ponerte en contacto con nosotros <a
                     href="mailto:pycon2014@dlabs.co">en pycon2014@dlabs.co</a>
           </div>
-          <div class=col-lg-12>
-                <h1 class="text-primary text-center">Colaboradores</h1>
-                <p class=lead>
-                    <img alt="gaceta logo" style="float: left; margin-right: 15px;" class="col-md-4 img-responsive" src="{{url_for('static', filename='img/gaceta.jpg')}}" />
-                </p>
-        </div>
       </div>
       <div class="row">
         <div class=col-lg-12>
-            <h1 class="text-primary text-center">Cómo participar </h1>
+            <h1 id=comoparticipar class="scrollto text-primary text-center">Cómo participar </h1>
             <p class="lead uppercase text-center">
                 La conferencia todavía se está gestando
             </p>
@@ -220,7 +147,7 @@
     </div>
     <div class=row>
         <div class=col-lg-12>
-            <h1 class="text-primary text-center"> CALL FOR PAPERS </h1>
+            <h1 id=call4papers class="scrollto text-primary text-center"> CALL FOR PAPERS </h1>
             <p class="lead uppercase text-center">
                 ¡Atentos, ponentes!
                 <br/>
@@ -270,7 +197,7 @@
       </div>
       <div class="row">
         <div class=col-lg-12>
-            <h1 class="text-primary text-center"> Codigo de conducta </h1>
+            <h1 id=codigodeconducta class="scrollto text-primary text-center"> Codigo de conducta </h1>
             <p class="lead">
                 Se espera todos los asistentes muestren respeto y cortesía hacia el resto
                 durante la conferencia.
@@ -293,9 +220,4 @@
 
         </div>
       </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
-</html>
+{%endblock%}

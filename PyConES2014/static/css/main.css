@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    padding-bottom: 20px;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+p.lead{
+    font-family: 'Open Sans', sans-serif;
+}
+.pythonspainlogo{
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: -20px;
+    font-weight: bolder;
+    color: #303030;
+    font-size:1.3em;
+}
+.nav-pills {
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+}
+.page-header{
+    margin-top:20px;
+}
+.sponsor{
+    margin-bottom:30px;
+}
+h1{
+    margin-top:60px;
+}
