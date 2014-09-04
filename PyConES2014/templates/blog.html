@@ -2,7 +2,15 @@
 {%block menu%}
 {%endblock%}
 {%block body%}
-{% for article in articles %}
-{{article}}
+{% for article in pages %}
+    <a href="/blog/{{article.meta['language']}}/{{article.meta['post_id']}}"><h1 class=text-center>{{article.meta['title']}}</h1></a>
+    <p class=lead>
+        {{article}}
+    </p>
+    <h4> {{article.meta['published']}} - {{article.meta['author']}}</h4>
+    <hr/>
 {%endfor%}
+{%if single%}
+<h1><a href="/blog/"> Volver </a></h1>
+{%endif%}
 {%endblock%}

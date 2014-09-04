@@ -9,14 +9,22 @@ app.secret_key = "SECRETKEY"
 @app.route('/blog/', methods=['GET'])
 @app.route('/blog', methods=['GET'])
 @app.route('/blog/<language>', methods=['GET'])
-def blog(language="es"):
-    articles = sorted((p for p in pages if 'published' in p.meta and language in p.meta),
-        key=lambda p: p.meta['published'])
-    return render_template('blog.html', pages=articles)
+@app.route('/blog/<language>/<post_id>')
+def blog(language="es", post_id=False):
+    if not post_id:
+        articles = sorted((p for p in pages if (p.meta['language'] == language)),
+            key=lambda p: p.meta['published'], reverse=True)
+        single = False
+    else:
+        articles = sorted((p for p in pages if (p.meta['language'] == language and p.meta['post_id'] == post_id )),
+            key=lambda p: p.meta['published'], reverse=True)
+        single = True
+    return render_template('blog.html', pages=articles, single=single)
 
 @app.route('/<language>/', methods=['GET'])
 @app.route('/', methods=['GET'])
 def index(language="es"):
+    print "index"
     if language in ["en", "es"]:
         return render_template('%s/index.html' %language)
     else:
