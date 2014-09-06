@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from flask import Flask, render_template, abort
+from flask import Flask, render_template, abort, request, g
 from flask_flatpages import FlatPages
 
 app = Flask(__name__)
@@ -16,14 +16,21 @@ babel = Babel(app)
 
 @babel.localeselector
 def get_locale():
-    default_lang = request.accept_languages.best_match(config["LANGUAGES"].keys())
-    return request.args.get('language', default_lang)
+    available_langs = app.config["LANGUAGES"].keys()
+    default_lang = request.accept_languages.best_match(available_langs)
+    res = request.args.get('lang', default_lang)
+    app.logger.debug('Language: %s' % res)
+    return res
+
+@app.before_request
+def before_request():
+    g.locale = get_locale()
 
 @app.route('/blog/', methods=['GET'])
-@app.route('/blog', methods=['GET'])
-@app.route('/blog/<language>', methods=['GET'])
+@app.route('/blog/<language>/', methods=['GET'])
 @app.route('/blog/<language>/<post_id>')
 def blog(language="es", post_id=False):
+    language = language or g.locale
     if not post_id:
         articles = sorted((p for p in pages if (p.meta['language'] == language)),
             key=lambda p: p.meta['published'], reverse=True)
@@ -34,10 +41,8 @@ def blog(language="es", post_id=False):
         single = True
     return render_template('blog.html', pages=articles, single=single)
 
-@app.route('/<language>/', methods=['GET'])
 @app.route('/', methods=['GET'])
-def index(language="es"):
-    #app.logger.debug('index')
+def index():
     return render_template('index.html')
 
 def server():

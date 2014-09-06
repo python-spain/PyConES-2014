@@ -2,13 +2,13 @@
 {%block menu%}
       <div style="border-bottom:1px solid #eee; padding-bottom:20px; margin-bottom:30px" class=text-center>
           <ul class="nav nav-pills text-center" style="background:white; margin-left:160px" id=navigation>
-              <li><a onclick="window.location.href='/#acercade'" href="#acercade">Acerca de</a></li>
-              <li><a onclick="window.location.href='/#comollegar'" href="#comollegar">Cómo llegar</a></li>
-              <li><a onclick="window.location.href='/#patrocinadores'" href="#patrocinadores">Patrocinadores</a> </li>
-              <li><a onclick="window.location.href='/#comoparticipar'" href="#comoparticipar">Cómo participar</a></li>
-              <li><a onclick="window.location.href='/#call4papers'" href="#call4papers">Call4Papers</a></li>
-              <li><a onclick="window.location.href='/#codigodeconducta'" href="#codigodeconducta">Código de conducta</a></li>
-              <li><a href="/blog" onclick="window.location.onclick="window.location.href='/#'" href='/blog'">Blog</a></li>
+              <li><a onclick="window.location.href='/#acercade'" href="#acercade">{{ _('Acerca de') }}</a></li>
+              <li><a onclick="window.location.href='/#comollegar'" href="#comollegar">{{ _('Cómo llegar') }}</a></li>
+              <li><a onclick="window.location.href='/#patrocinadores'" href="#patrocinadores">{{ _('Patrocinadores') }}</a> </li>
+              <li><a onclick="window.location.href='/#comoparticipar'" href="#comoparticipar">{{ _('Cómo participar') }}</a></li>
+              <li><a onclick="window.location.href='/#call4papers'" href="#call4papers">{{ _('Call4Papers') }}</a></li>
+              <li><a onclick="window.location.href='/#codigodeconducta'" href="#codigodeconducta">{{ _('Código de conducta') }}</a></li>
+              <li><a href="/blog" onclick="window.location.onclick="window.location.href='/#'" href='/blog'">{{ _('Blog') }}</a></li>
           </ul>
 
       </div>
@@ -24,6 +24,6 @@
     <hr/>
 {%endfor%}
 {%if single%}
-<h1><a href="/blog/"> Volver </a></h1>
+<h1><a href="/blog/">{{ _('Volver') }}</a></h1>
 {%endif%}
 {%endblock%}
