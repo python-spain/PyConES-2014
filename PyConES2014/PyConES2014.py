@@ -3,8 +3,21 @@ from flask import Flask, render_template, abort
 from flask_flatpages import FlatPages
 
 app = Flask(__name__)
-pages = FlatPages(app)
+app.config['LANGUAGES'] = {
+    'en': 'English',
+    'es': 'Español'
+}
 app.secret_key = "SECRETKEY"
+
+pages = FlatPages(app)
+
+from flask.ext.babel import Babel
+babel = Babel(app)
+
+@babel.localeselector
+def get_locale():
+    default_lang = request.accept_languages.best_match(config["LANGUAGES"].keys())
+    return request.args.get('language', default_lang)
 
 @app.route('/blog/', methods=['GET'])
 @app.route('/blog', methods=['GET'])
@@ -24,11 +37,8 @@ def blog(language="es", post_id=False):
 @app.route('/<language>/', methods=['GET'])
 @app.route('/', methods=['GET'])
 def index(language="es"):
-    print "index"
-    if language in ["en", "es"]:
-        return render_template('%s/index.html' %language)
-    else:
-        abort(404)
+    #app.logger.debug('index')
+    return render_template('index.html')
 
 def server():
     """ Main server, will allow us to make it wsgi'able """
