@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from flask import Flask, render_template, abort, request, g
+from flask import Flask, render_template, request, g
 from flask_flatpages import FlatPages
 
 app = Flask(__name__)
