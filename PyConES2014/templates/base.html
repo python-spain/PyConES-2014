@@ -17,8 +17,14 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
         <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
         <script src="{{ url_for('static', filename='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js') }}"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/URI.js/1.11.2/URI.min.js"></script>
     </head>
 <body>
+    <select style="position:absolute; right:0px; width:80px; margin:20px" class="form-control" onchange='select_lang()' id="langselect">
+        {% for language in config['LANGUAGES'] %}
+        <option name="{{language}}" style="width:50px" {% if language == g.locale %}selected{%endif%}> {{ language }} </option>
+        {%endfor%}
+    </select>
     <div class="container">
      <div class="page-header" id="banner">
         <div class="row">
@@ -52,13 +58,13 @@
       {%block menu%}
       <div style="border-bottom:1px solid #eee; padding-bottom:20px; margin-bottom:30px" class=text-center>
           <ul class="nav nav-pills text-center" style="background:white; margin-left:160px" id=navigation>
-              <li><a href="#acercade">Acerca de</a></li>
-              <li><a href="#comollegar">Como llegar</a></li>
-              <li><a href="#patrocinadores">Patrocinadores</a> </li>
-              <li><a href="#comoparticipar">Como participar</a></li>
-              <li><a href="#call4papers">Call4Papers</a></li>
-              <li><a href="#codigodeconducta">Codigo de conducta</a></li>
-              <li><a href="/blog" onclick="window.location.href='/blog'">Blog</a></li>
+              <li><a href="#acercade">{{ _('Acerca de') }}</a></li>
+              <li><a href="#comollegar">{{ _('Cómo llegar') }}</a></li>
+              <li><a href="#patrocinadores">{{ _('Patrocinadores') }}</a> </li>
+              <li><a href="#comoparticipar">{{ _('Cómo participar') }}</a></li>
+              <li><a href="#call4papers">{{ _('Call4Papers') }}</a></li>
+              <li><a href="#codigodeconducta">{{ _('Código de conducta') }}</a></li>
+              <li><a href="/blog" onclick="window.location.href='/blog'">{{ _('Blog') }}</a></li>
           </ul>
 
       </div>
@@ -72,8 +78,8 @@
     </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="{{url_for('static', filename="js/vendor/bootstrap.min.js")}} "></script>
+        <script src="{{url_for('static', filename='js/main.js')}}"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
         <script src="//cdn.jsdelivr.net/stickynavbar.js/1.1.1/jquery.stickyNavbar.min.js"></script>
         <script>
