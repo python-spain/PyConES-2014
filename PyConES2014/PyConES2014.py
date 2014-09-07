@@ -19,7 +19,6 @@ def get_locale():
     available_langs = app.config["LANGUAGES"].keys()
     default_lang = request.accept_languages.best_match(available_langs)
     res = request.args.get('lang', default_lang)
-    app.logger.debug('Language: %s' % res)
     return res
 
 @app.before_request
