@@ -113,7 +113,7 @@
                 {{ _('¡Tú también puedes patrocinar PyConES!') }}
             </p>
               <p class="lead">
-              <b>{{ _('Si estás interesado en patrocinar PyConES 2014, <a href="%(url_sponsor)s">este documento</a> es para ti</b>', url_sponsor=url_for('static', filename='Patrocinio_PyConEs2014.pdf')) }}
+              <b>{{ _('Si estás interesado en patrocinar PyConES 2014, <a href="%(url_sponsor)s">este documento</a> es para ti</b>', url_sponsor=url_for('static', filename='pycones2014call4sponsors_%s.pdf' % (g.locale if g.locale in ("es", "en") else "es"))) }}
               <br/>
               {{ _('Puedes ponerte en contacto con nosotros <a href="mailto:pycon2014@dlabs.co">en pycon2014@dlabs.co</a>') }}
           </div>
