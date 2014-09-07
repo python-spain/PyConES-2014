@@ -5,7 +5,8 @@ from flask_flatpages import FlatPages
 app = Flask(__name__)
 app.config['LANGUAGES'] = {
     'en': 'English',
-    'es': 'Español'
+    'es': 'Español',
+    'ca': 'Català'
 }
 app.secret_key = "SECRETKEY"
 
