@@ -3,66 +3,66 @@
 # This file is distributed under the same license as the PROJECT project.
 # 
 # Translators:
-# Juan Luis Cano <juanlu001@gmail.com>, 2014
+# jpalanca <jpalanca@gmail.com>, 2014
 # AdaHopper <mai@immutable.es>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Web PyConES 2014\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-09-06 15:52+0200\n"
-"PO-Revision-Date: 2014-09-07 20:10+0000\n"
+"PO-Revision-Date: 2014-09-07 16:56+0000\n"
 "Last-Translator: AdaHopper <mai@immutable.es>\n"
-"Language-Team: English (http://www.transifex.com/projects/p/web-pycones-2014/language/en/)\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/web-pycones-2014/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
-"Language: en\n"
+"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: PyConES2014/templates/base.html:55 PyConES2014/templates/blog.html:5
 msgid "Acerca de"
-msgstr "About"
+msgstr "Sobre"
 
 #: PyConES2014/templates/base.html:56 PyConES2014/templates/blog.html:6
 msgid "Cómo llegar"
-msgstr "Venue"
+msgstr "Com arribar"
 
 #: PyConES2014/templates/base.html:57 PyConES2014/templates/blog.html:7
 #: PyConES2014/templates/index.html:89
 msgid "Patrocinadores"
-msgstr "Sponsors"
+msgstr "Patrocinadors"
 
 #: PyConES2014/templates/base.html:58 PyConES2014/templates/blog.html:8
 #: PyConES2014/templates/index.html:123
 msgid "Cómo participar"
-msgstr "Get involved"
+msgstr "Com participar"
 
 #: PyConES2014/templates/base.html:59 PyConES2014/templates/blog.html:9
 msgid "Call4Papers"
-msgstr "Call for papers"
+msgstr "Call4Papers"
 
 #: PyConES2014/templates/base.html:60 PyConES2014/templates/blog.html:10
 msgid "Código de conducta"
-msgstr "Code of conduct"
+msgstr "Codi de conducta"
 
 #: PyConES2014/templates/base.html:61 PyConES2014/templates/blog.html:11
 msgid "Blog"
-msgstr "Blog"
+msgstr "Bloc"
 
 #: PyConES2014/templates/blog.html:27
 msgid "Volver"
-msgstr "Back"
+msgstr "Tornar"
 
 #: PyConES2014/templates/index.html:5
 msgid "¿Qué es PyConES 2014?"
-msgstr "What is PyConEs2014?"
+msgstr "Què és PyConES 2014?"
 
 #: PyConES2014/templates/index.html:6
 msgid ""
 "PyConES es la conferencia nacional de Python <br/> con mayor relevancia de "
 "España."
-msgstr "PyConES is the national Python conference <br/> more relevant in Spain. "
+msgstr "PyConES és la conferència nacional de Python <br/> amb major rellevància d'Espanya."
 
 #: PyConES2014/templates/index.html:9
 msgid ""
@@ -72,7 +72,7 @@ msgid ""
 "                organización recae en el hackerspace de Zaragoza, Dlabs con la\n"
 "                colaboración de la asociación Python España y el Grupo de Python\n"
 "                Zaragoza."
-msgstr "<span class=text-primary>PyConES</span> second edition will be held, after the first edition's\nsuccess last year in Madrid, under the global event\n<a href=\"http://pycon.org\">PyCon</a> format. In this edition, the organization\nis by the hand of the Zaragoza Hackerspace, Dlabs, with the collaboration\nof the Python Spain association and the Python Zaragoza user group. "
+msgstr "<span class=text-primary>PyConES</span> celebrarà la seva segona edició, després de l'èxit de la desenvolupada l'any passat a Madrid, sota el format de l'esdeveniment mundial <a href=\"http://pycon.org\"> PyCon </a>. En aquesta ocasió, la organització recau en el hackerspace de Saragossa, Dlabs amb la col·laboració de l'associació Python Espanya i el Grup de Python Saragossa."
 
 #: PyConES2014/templates/index.html:24
 msgid ""
@@ -83,7 +83,7 @@ msgid ""
 "                  especie de laboratorio de desarrollo abierto. Ahora mismo el\n"
 "                  hackerspace cuenta con una veintena de socios que coordinarán y\n"
 "                  organizarán el evento de este año junto a otros voluntarios."
-msgstr "A hackerspace is a physical place where people who has diverse\ninterests can get to know each other, socialize and collaborate. Dlabs\ngives us a space where we can meet, share knowledge\nand materials, creating some kind of open development laboratory. Right now,\nZaragoza's hackerspace has about twenty members who will coordinate\nand organise this year's event, along with many other volunteers."
+msgstr "Un hackerspace és un lloc físic on gent amb diversos interessos es pot conèixer, socialitzar i col·laborar. DLabs ens brinda un espai on unir-nos persones de diversos rerefons i especialitats mitjançant la compartició de coneixements i materials creant una mena de laboratori de desenvolupament obert. Ara mateix el hackerspace compta amb una vintena de socis que coordinaran i organitzaran l'esdeveniment d'aquest any al costat d'altres voluntaris."
 
 #: PyConES2014/templates/index.html:35
 msgid ""
@@ -91,11 +91,11 @@ msgid ""
 "                   camino entre Madrid y Barcelona, con buenas comunicaciones por carretera y tren\n"
 "                   de alta velocidad, y cuenta con una buena oferta hostelera, gastronómica y de\n"
 "                   ocio nocturno, lo que la hace una ciudad ideal para la celebración de congresos."
-msgstr "Zaragoza is the fifth city in Spain by size. It's enclaved halfway between\nMadrid and Barcelona, well served by road and high speed train (AVE). It counts\nwith a good gastronomic, nightlife and hotel offer, which makes it the ideal city\nfor holding big conferences. "
+msgstr "Saragossa és la cinquena ciutat espanyola per grandària. Està enclavada a mig camí entre Madrid i Barcelona, amb bones comunicacions per carretera i tren d'alta velocitat, i compta amb una bona oferta hotelera, gastronòmica i d'oci nocturn, la qual cosa la fa una ciutat ideal per a la celebració de congressos."
 
 #: PyConES2014/templates/index.html:44
 msgid "Ediciones anteriores"
-msgstr "Previous editions"
+msgstr "Edicions anteriors"
 
 #: PyConES2014/templates/index.html:45
 msgid "PyConES 2013"
@@ -108,21 +108,21 @@ msgid ""
 "                La conferencia contó con más de 20 patrocinadores y más de 300\n"
 "                asistentes, así como casi 10.000 visualizaciones de las charlas en\n"
 "                los seis meses posteriores a la celebración del evento."
-msgstr "<span>PyConES 2013 was held at Madrid's Universidad Politecnica (UPM) in November 2013.</span><br/>\nThe conference had more than 20 sponsors, more than 300 attendees and\nalmost 10.000 views of the talks in the next six months. "
+msgstr "<span>La PyConES 2013 es va celebrar a la Universitat Politècnica de Madrid (UPM) el novembre de 2013.</span> <br/> \nLa conferència va comptar amb més de 20 patrocinadors i més de 300 assistents, així com gairebé 10.000 visualitzacions de les xerrades en els sis mesos posteriors a la celebració de l'esdeveniment."
 
 #: PyConES2014/templates/index.html:53
 msgid ""
 "Para más información, puedes visitar el archivo de la edición\n"
 "                2013 <a href=\"http://2013.es.pycon.org\" target=\"_new\">aquí</a>"
-msgstr "For further info, you can watch the 2013 edition\narchive <a href=\"http://2013.es.pycon.org\" target=\"_new\">here</a>"
+msgstr "Per a més informació, pots visitar l'arxiu de l'edició 2013 <a href=\"http://2013.es.pycon.org\" target=\"_new\">ací</a>"
 
 #: PyConES2014/templates/index.html:64
 msgid "Lugar"
-msgstr "Venue"
+msgstr "Lloc"
 
 #: PyConES2014/templates/index.html:66
 msgid "Etopia - Centro de Arte y Tecnología"
-msgstr "Etopia - Centre for Art and Technology "
+msgstr "Etopia - Centre d'Art i Tecnologia"
 
 #: PyConES2014/templates/index.html:69
 msgid ""
@@ -137,52 +137,52 @@ msgid ""
 "                   ámbitos surgidos por la intersección del arte y la tecnología,\n"
 "                   laboratorio de ideas para la ciudad digital e incubadora de\n"
 "                   nuevas empresas del sector de los contenidos."
-msgstr "Zaragoza's Center for Art and Technology is a new-generation equipment\ndesigned to hold and promote the most innovative and creative\nprojects within the scope of \"Milla Digital\".<br/>\nA powerful installation with a total surface area of more than 16.000 m2\nwhich will work, at the same time, as a centre for contemporary culture,\nshowcase of the most cutting-edge expressions and workshop for\nthe makers and technologists, a space of specialized training in the\nnew scopes emerging from the intersection of art and technology,\na lab for ideas about the digital city and incubator for new\nenterprises in the content sector. "
+msgstr "El Centre d'Art i Tecnologia de Saragossa és un equipament de nova generació dissenyat per a albergar i promoure els projectes creatius i emprenedors més innovadors dins l'espai de la Milla Digital.<br/> Una potent instal·lació amb una superfície total construïda de més de 16.000 m2 que funcionarà al mateix temps com a centre de cultura contemporània, aparador de les expressions artístiques més avantguardistes, taller per a creadors i tecnòlegs, espai de formació especialitzada en els nous àmbits sorgits per la intersecció de l'art i la tecnologia, laboratori d'idees per a la ciutat digital i incubadora d'noves empreses del sector dels continguts."
 
 #: PyConES2014/templates/index.html:82
 msgid "Ver mapa más grande"
-msgstr "View larger map"
+msgstr "Veure mapa més gran"
 
 #: PyConES2014/templates/index.html:82
 msgid "Ver mapa en Google Maps"
-msgstr "View map on Google Maps"
+msgstr "Veure mapa a Google Maps"
 
 #: PyConES2014/templates/index.html:92
 msgid "Platino"
-msgstr "Platinum"
+msgstr "Platí"
 
 #: PyConES2014/templates/index.html:95
 msgid "Oro"
-msgstr "Gold"
+msgstr "Or"
 
 #: PyConES2014/templates/index.html:98
 msgid "Plata"
-msgstr "Silver"
+msgstr "Plata"
 
 #: PyConES2014/templates/index.html:101
 msgid "Colaboradores"
-msgstr "Partners"
+msgstr "Col·laboradors"
 
 #: PyConES2014/templates/index.html:113
 msgid "¡Tú también puedes patrocinar PyConES!"
-msgstr "You can sponsor PyConES too!"
+msgstr "Tu també pots patrocinar la PyConES!"
 
 #: PyConES2014/templates/index.html:116
 #, python-format
 msgid ""
 "Si estás interesado en patrocinar PyConES 2014, <a "
 "href=\"%(url_sponsor)s\">este documento</a> es para ti</b>"
-msgstr "If you're interested in sponsoring PyConES 2014, <a href=\"%(url_sponsor)s\">this document</a> is for you</b>"
+msgstr "Si estàs interessat en patrocinar PyConES 2014, <a href=\"%(url_sponsor)s\"> aquest document </a>és per a tu</b>"
 
 #: PyConES2014/templates/index.html:118
 msgid ""
 "Puedes ponerte en contacto con nosotros <a "
 "href=\"mailto:pycon2014@dlabs.co\">en pycon2014@dlabs.co</a>"
-msgstr "You can get in touch with us <a href=\"mailto:pycon2014@dlabs.co\">at pycon2014@dlabs.co</a>"
+msgstr "Pots posar-te en contacte amb nosaltres <a href=\"mailto:pycon2014@dlabs.co\"> a pycon2014@dlabs.co</a>"
 
 #: PyConES2014/templates/index.html:124
 msgid "La conferencia todavía se está gestando"
-msgstr "The conference is still being brewing"
+msgstr "La conferència encara s'està gestant"
 
 #: PyConES2014/templates/index.html:125
 msgid ""
@@ -191,23 +191,23 @@ msgid ""
 "            más veinte personas implicadas, está preparando los recursos para\n"
 "            que podáis participar y luchando por conseguir a los mejores\n"
 "            conferenciantes y las charlas más interesantes."
-msgstr "We're working hard to offer you a spectacular PyConES event.\nOur organization, volunteer and collaborator team, with more than\ntwenty people, is getting the resources ready for you to participate\nand struggling to get the best speakers and most interesting talks. "
+msgstr "Estem treballant dur per poder oferir-vos una PyConES espectacular. El nostre equip d'organitzadors, col·laboradors i voluntaris, amb més de vint persones implicades, està preparant els recursos per a que pugueu participar i lluitant per aconseguir els millors conferenciants i les xerrades més interessants."
 
 #: PyConES2014/templates/index.html:130
 msgid "Actualmente puedes acceder a los siguientes recursos:"
-msgstr "At this moment you can access the following resources:"
+msgstr "Actualment pots accedir als següents recursos:"
 
 #: PyConES2014/templates/index.html:132
 msgid "Correo electrónico de colaboradores"
-msgstr "Collaborator mail"
+msgstr "Correu electronic de col·laboradors"
 
 #: PyConES2014/templates/index.html:133
 msgid "Correo interno de organización de Dlabs Hackerspace"
-msgstr "Internal organization mail for Dlabs Hackerspace"
+msgstr "Correu intern d'organització de Dlabs Hackerspace"
 
 #: PyConES2014/templates/index.html:134
 msgid "Trello público"
-msgstr "Public Trello"
+msgstr "Trello públic"
 
 #: PyConES2014/templates/index.html:140
 msgid "Call for papers"
@@ -215,11 +215,11 @@ msgstr "Call for papers"
 
 #: PyConES2014/templates/index.html:141
 msgid "¡Atentos, ponentes!"
-msgstr "This is for you, speakers!"
+msgstr "Atenció, ponents!"
 
 #: PyConES2014/templates/index.html:144
 msgid "¡Abierta la convocatoria para presentar ponencias en la PyConES 2014!"
-msgstr "Call4Papers is open for PyConES 2014!"
+msgstr "Oberta la convocatòria per presentar ponències a la PyConES2014!"
 
 #: PyConES2014/templates/index.html:145
 msgid ""
@@ -227,66 +227,66 @@ msgid ""
 "                posible para facilitar el viaje y alojamiento a los ponentes de\n"
 "                PyConES 2014, además, gozarán de entrada gratuita y un regalo\n"
 "                especial que anunciaremos en la ceremonia de despedida."
-msgstr "Sponsorship is not yet closed, but we'll do everything that is in our\nhands to help with the travel and accommodation of the speakers.\nThey'll also get a free ticket and a special gift that we'll announce\nat the farewell ceremony. "
+msgstr "Actualment els patrocinis no estan tancats, però farem tot el possible per facilitar el viatge i allotjament als ponents de PyConES 2014, a més, gaudiran d'entrada gratuïta i un regal especial que anunciarem en la cerimònia d'acomiadament."
 
 #: PyConES2014/templates/index.html:151
 msgid "Tipos de ponencia a presentar"
-msgstr "Types of papers"
+msgstr "Tipus de ponències a presentar"
 
 #: PyConES2014/templates/index.html:152
 msgid "Charlas - 50 minutos de charla técnica"
-msgstr "Talks - 50 minutes of technical talk"
+msgstr "Xerrades - 50 minuts de xerrada tècnica"
 
 #: PyConES2014/templates/index.html:153
 msgid "Lightning talks - 10 minutos de ponencia o presentación de producto."
-msgstr "Lightning talks - 10 minutes of product presentation or technical talk"
+msgstr "Lightning talks - 10 minuts de ponència o presentació de producte."
 
 #: PyConES2014/templates/index.html:154
 msgid "Talleres - entre 50 minutos y 2 horas de taller"
-msgstr "Workshops - between 50 minutes and 2 hours"
+msgstr "Tallers - entre 50 minuts i 2 hores de taller"
 
 #: PyConES2014/templates/index.html:157
 msgid "Algunas fechas importantes"
-msgstr "Some important dates"
+msgstr "Algunes dates importants"
 
 #: PyConES2014/templates/index.html:160
 msgid "10 de septiembre - Límite del plazo de presentación de ponencias"
-msgstr "September 10th - Deadline for submitting a talk"
+msgstr "10 de setembre - Límit del termini de presentació de ponències"
 
 #: PyConES2014/templates/index.html:161
 msgid "3-6 noviembre - Curso de Python en Dlabs"
-msgstr "November 3rd-6th - Python course at Dlabs Hackerspace"
+msgstr "3-6 novembre - Curs de Python en Dlabs"
 
 #: PyConES2014/templates/index.html:162
 msgid "7 de noviembre - BetaBeers especial PyConES "
-msgstr "November 7th - Special BetaBeers PyConES"
+msgstr "7 de novembre - BetaBeers especial PyConES"
 
 #: PyConES2014/templates/index.html:166
 msgid ""
 "Si tienes una propuesta de charla, envíanos un correo a\n"
 "                <a href=\"mailto:pycon2014@dlabs.co\">pycon2014@dlabs.co</a> con\n"
 "                los siguientes puntos:"
-msgstr "If you've got a talk proposal, send us a mail to\n<a href=\"mailto:pycon2014@dlabs.co\">pycon2014@dlabs.co</a> with\nthe following information:"
+msgstr "Si tens una proposta de xerrada, envia'ns un correu a <a href=\"mailto:pycon2014@dlabs.co\">pycon2014@dlabs.co</a> amb els següents punts:"
 
 #: PyConES2014/templates/index.html:172
 msgid "<em>Asunto:</em> \"PyConES 2014 - Call4Papers Response\""
-msgstr "<em>Subject:</em> \"PyConEs2014 - Call4Papers Response\""
+msgstr "<em>Assumpte:</em> \"PyConES 2014 - Call4Papers Response\""
 
 #: PyConES2014/templates/index.html:173
 msgid "<em>Cuerpo:</em> Pequeño extracto del tema tu charla"
-msgstr "<em>Body:</em> Small abstract of your talk"
+msgstr "<em>Cos:</em>Petit extracte del tema de la teva xerrada"
 
 #: PyConES2014/templates/index.html:174
 msgid "<em>Incluye la duración de tu charla</em>"
-msgstr "<em>Add your talk duration</em>"
+msgstr "<em>Inclou la duració de la teva xerrada</em>"
 
 #: PyConES2014/templates/index.html:175
 msgid "<em>Cuéntanos algo sobre ti mismo</em>"
-msgstr "<em>Tell us something about yourself</em>"
+msgstr "<em>Explica'ns alguna cosa sobre tu mateix</em>"
 
 #: PyConES2014/templates/index.html:181
 msgid " Código de conducta "
-msgstr "Code of conduct"
+msgstr "Codi de conducta"
 
 #: PyConES2014/templates/index.html:183
 msgid ""
@@ -307,4 +307,4 @@ msgid ""
 "                Si algún participante infringiera este código de conducta, la organización podrá\n"
 "                tomar las medidas que considere adecuadas, como la amonestación o la expulsión\n"
 "                sin derecho a reembolso."
-msgstr "All assistants are required to show respect and courtesy towards\nthe rest during the conference. <br/>\nSpecifically, all delegates, speakers and volunteers taking\npart in PyConES-related activities should adhere to the present\ncode of conduct. Organization will enforce the fulfilment of\nthis code of conduct.<br/>\nPyConEs aims to create a discrimination free environment.\nGender, sexual orientation, disability, physical aspect, ethnics\nor religion-based discriminations will not be tolerated under\nany circumstance.<br/>\nIf any participant breaks this code of conduct, organization\nreserves the right to take the adequate measures, like\ncaution or expulsion without right to be reimbursed.\n        "
+msgstr "S'espera que tots els assistents mostrin respecte i cortesia cap a la resta\n                durant la conferència.\n                <br/>\n                En concret, tots els delegats, conferenciants, expositors i voluntaris que\n                prenguin part en activitats relacionades amb PyConES hauran d'acatar aquest\n                codi de conducta. Els organitzadors tindran cura del compliment d'aquest codi\n                durant l'esdeveniment.\n                <br/>\n\n                PyConES aspira a crear un ambient lliure d'assetjaments o discriminacions per raó\n                de gènere, orientació sexual, discapacitat, aspecte físic, ètnia o religió.\n                No es tolerarà cap discriminació sota cap circumstància.\n                <br/>\n\n                Si algun participant infringís aquest codi de conducta, l'organització podrá\n                prendre les mesures que consideri adequades, com l'amonestació o l'expulsió\n                sense dret a reemborsament."

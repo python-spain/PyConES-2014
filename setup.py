@@ -15,7 +15,9 @@ requirements = [
     'Flask',
     'Flask-FlatPages',
     'Flask-babel',
-    'Flask-Markdown'
+    'Flask-Markdown',
+    'requests',
+    'Markdown'
 ]
 
 test_requirements = [

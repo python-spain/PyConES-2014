@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request, g
 from flask_flatpages import FlatPages
-from flaskext.markdown import Markdown
+from flask_markdown import markdown
 import requests
 import json
 
 app = Flask(__name__)
 app.config['LANGUAGES'] = {
     'en': 'English',
-    'es': 'Español'
+    'es': 'Español',
+    'ca': 'Català'
 }
 app.secret_key = "SECRETKEY"
 
@@ -16,18 +17,21 @@ pages = FlatPages(app)
 
 from flask.ext.babel import Babel
 babel = Babel(app)
-Markdown(app)
+markdown(app)
 
 @babel.localeselector
 def get_locale():
     available_langs = app.config["LANGUAGES"].keys()
     default_lang = request.accept_languages.best_match(available_langs)
     res = request.args.get('lang', default_lang)
+    if res not in available_langs:
+        res = default_lang
     return res
 
 @app.before_request
 def before_request():
     g.locale = get_locale()
+    g.available_langs = app.config["LANGUAGES"].keys()
 
 @app.route('/blog/', methods=['GET'])
 @app.route('/blog/<language>/', methods=['GET'])
@@ -50,8 +54,8 @@ def index():
 
 @app.route('/talks', methods=['GET'])
 def talks():
-    trello_tasks = requests.get('https://api.trello.com/1/lists/53a70c099f3ce8897416347b/cards')
-    return render_template('charlas.html', trello_tasks = json.loads(trello_tasks.text))
+    trello_talks = requests.get('https://api.trello.com/1/lists/53a70c099f3ce8897416347b/cards')
+    return render_template('charlas.html', trello_talks = json.loads(trello_talks.text))
 
 def server():
     """ Main server, will allow us to make it wsgi'able """
