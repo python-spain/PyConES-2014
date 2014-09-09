@@ -14,7 +14,8 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 requirements = [
     'Flask',
     'Flask-FlatPages',
-    'Flask-babel'
+    'Flask-babel',
+    'Flask-Markdown'
 ]
 
 test_requirements = [

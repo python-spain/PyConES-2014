@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request, g
 from flask_flatpages import FlatPages
+from flaskext.markdown import Markdown
+import requests
+import json
 
 app = Flask(__name__)
 app.config['LANGUAGES'] = {
@@ -13,6 +16,7 @@ pages = FlatPages(app)
 
 from flask.ext.babel import Babel
 babel = Babel(app)
+Markdown(app)
 
 @babel.localeselector
 def get_locale():
@@ -43,6 +47,11 @@ def blog(language="es", post_id=False):
 @app.route('/', methods=['GET'])
 def index():
     return render_template('index.html')
+
+@app.route('/talks', methods=['GET'])
+def talks():
+    trello_tasks = requests.get('https://api.trello.com/1/lists/53a70c099f3ce8897416347b/cards')
+    return render_template('charlas.html', trello_tasks = json.loads(trello_tasks.text))
 
 def server():
     """ Main server, will allow us to make it wsgi'able """

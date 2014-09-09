@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+    {% block body %}
+    {%for task in trello_tasks%}
+        <h1 class=text-center> {{task.name}}</h1>
+        <div class="lead">
+            {% filter markdown %}
+{{ task.desc }}
+            {%endfilter%}
+        </div>
+        <h3 class=text-info>Votos {{task.idMembersVoted|count}}</h3>
+        <hr/>
+    {%endfor%}
+{%endblock%}
