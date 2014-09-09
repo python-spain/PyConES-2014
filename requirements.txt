@@ -2,3 +2,5 @@ Flask
 Flask-Flatpages
 Flask-babel
 Flask-Markdown
+requests
+Markdown

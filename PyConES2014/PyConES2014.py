@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request, g
 from flask_flatpages import FlatPages
-from flaskext.markdown import Markdown
+from flask_markdown import markdown
 import requests
 import json
 
@@ -17,7 +17,7 @@ pages = FlatPages(app)
 
 from flask.ext.babel import Babel
 babel = Babel(app)
-Markdown(app)
+markdown(app)
 
 @babel.localeselector
 def get_locale():
