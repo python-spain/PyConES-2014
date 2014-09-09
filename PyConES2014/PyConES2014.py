@@ -54,8 +54,8 @@ def index():
 
 @app.route('/talks', methods=['GET'])
 def talks():
-    trello_tasks = requests.get('https://api.trello.com/1/lists/53a70c099f3ce8897416347b/cards')
-    return render_template('charlas.html', trello_tasks = json.loads(trello_tasks.text))
+    trello_talks = requests.get('https://api.trello.com/1/lists/53a70c099f3ce8897416347b/cards')
+    return render_template('charlas.html', trello_talks = json.loads(trello_talks.text))
 
 def server():
     """ Main server, will allow us to make it wsgi'able """

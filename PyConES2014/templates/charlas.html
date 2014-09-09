@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
     {% block body %}
-    {%for task in trello_tasks%}
-        <h1 class=text-center> {{task.name}}</h1>
+    {%for talk in trello_talks%}
+        <h1 class=text-center> {{talk.name}}</h1>
         <div class="lead">
             {% markdown %}
-{{ task.desc }}
+{{ talk.desc }}
             {%endmarkdown%}
         </div>
-        <h3 class=text-info>Votos {{task.idMembersVoted|count}}</h3>
+        <h3 class=text-info>Votos {{talk.idMembersVoted|count}}</h3>
         <hr/>
     {%endfor%}
 {%endblock%}
