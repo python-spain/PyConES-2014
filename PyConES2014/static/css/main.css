@@ -23,7 +23,7 @@ p.lead{
 .nav-pills {
     margin: 0 auto;
     padding: 0;
-    width: 800px;
+    width: 100%;
 }
 .page-header{
     margin-top:20px;
