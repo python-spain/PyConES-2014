@@ -8,7 +8,8 @@ import json
 app = Flask(__name__)
 app.config['LANGUAGES'] = {
     'en': 'English',
-    'es': 'Español'
+    'es': 'Español',
+    'ca': 'Català'
 }
 app.secret_key = "SECRETKEY"
 
@@ -23,11 +24,14 @@ def get_locale():
     available_langs = app.config["LANGUAGES"].keys()
     default_lang = request.accept_languages.best_match(available_langs)
     res = request.args.get('lang', default_lang)
+    if res not in available_langs:
+        res = default_lang
     return res
 
 @app.before_request
 def before_request():
     g.locale = get_locale()
+    g.available_langs = app.config["LANGUAGES"].keys()
 
 @app.route('/blog/', methods=['GET'])
 @app.route('/blog/<language>/', methods=['GET'])
