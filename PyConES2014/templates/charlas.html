@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
     {% block body %}
+    <h2 class="text-center text-danger"> Actualmente hemos recibido {{ trello_talks|count }} propuestas de charlas </h2>
     {%for talk in trello_talks%}
         <h1 class=text-center> {{talk.name}}</h1>
         <div class="lead">
