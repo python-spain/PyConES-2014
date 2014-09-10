@@ -1,6 +1,6 @@
 Flask
 Flask-Flatpages
 Flask-babel
-Flask-Markdown
+Flask-Markdown2
 requests
 Markdown

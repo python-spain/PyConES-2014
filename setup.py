@@ -15,7 +15,7 @@ requirements = [
     'Flask',
     'Flask-FlatPages',
     'Flask-babel',
-    'Flask-Markdown',
+    'Flask-Markdown2',
     'requests',
     'Markdown'
 ]
