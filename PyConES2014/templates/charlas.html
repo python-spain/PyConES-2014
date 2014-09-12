@@ -17,7 +17,9 @@
     {%endblock%}
 
     {% block body %}
-    <h2 class="text-center text-danger"> Actualmente hemos recibido {{ trello_talks|count }} propuestas de charlas </h2>
+    <h2 class="text-center text-danger"> Actualmente hemos recibido {{ trello_talks|count }} propuestas de charlas, {{trello_wshop|count}} propuestas de talleres y {{trello_light|count}} propuestas de lightning talks </h2>
+
+    <h1 class=text-danger>Charlas</h1>
     {%for talk in trello_talks%}
         <h1 class=text-center> {{talk.name}}</h1>
         <div class="lead">
@@ -28,4 +30,32 @@
         <h3 class=text-info>Votos {{talk.idMembersVoted|count}}</h3>
         <hr/>
     {%endfor%}
+
+    <h1 class=text-danger>Talleres </h1>
+    {%for talk in trello_wshop%}
+        <h1 class=text-center> {{talk.name}}</h1>
+        <div class="lead">
+            {% markdown %}
+{{ talk.desc }}
+            {%endmarkdown%}
+        </div>
+        <h3 class=text-info>Votos {{talk.idMembersVoted|count}}</h3>
+        <hr/>
+    {%endfor%}
+
+    <h1 class=text-danger>Lightning talks</h1>
+    <h1 class=text-danger>Charlas</h1>
+    {%for talk in trello_light%}
+        <h1 class=text-center> {{talk.name}}</h1>
+        <div class="lead">
+            {% markdown %}
+{{ talk.desc }}
+            {%endmarkdown%}
+        </div>
+        <h3 class=text-info>Votos {{talk.idMembersVoted|count}}</h3>
+        <hr/>
+    {%endfor%}
+
+
+
 {%endblock%}
