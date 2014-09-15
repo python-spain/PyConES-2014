@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Web PyConES 2014\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-09-06 15:52+0200\n"
-"PO-Revision-Date: 2014-09-07 16:56+0000\n"
+"POT-Creation-Date: 2014-09-10 20:50+0200\n"
+"PO-Revision-Date: 2014-09-10 18:59+0000\n"
 "Last-Translator: AdaHopper <mai@immutable.es>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/web-pycones-2014/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -20,37 +20,41 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: PyConES2014/templates/base.html:55 PyConES2014/templates/blog.html:5
+#: PyConES2014/templates/base.html:61 PyConES2014/templates/blog.html:5
 msgid "Acerca de"
 msgstr "Sobre"
 
-#: PyConES2014/templates/base.html:56 PyConES2014/templates/blog.html:6
+#: PyConES2014/templates/base.html:62 PyConES2014/templates/blog.html:6
 msgid "Cómo llegar"
 msgstr "Com arribar"
 
-#: PyConES2014/templates/base.html:57 PyConES2014/templates/blog.html:7
+#: PyConES2014/templates/base.html:63 PyConES2014/templates/blog.html:7
 #: PyConES2014/templates/index.html:89
 msgid "Patrocinadores"
 msgstr "Patrocinadors"
 
-#: PyConES2014/templates/base.html:58 PyConES2014/templates/blog.html:8
+#: PyConES2014/templates/base.html:64 PyConES2014/templates/blog.html:8
 #: PyConES2014/templates/index.html:123
 msgid "Cómo participar"
 msgstr "Com participar"
 
-#: PyConES2014/templates/base.html:59 PyConES2014/templates/blog.html:9
+#: PyConES2014/templates/base.html:65 PyConES2014/templates/blog.html:9
 msgid "Call4Papers"
 msgstr "Call4Papers"
 
-#: PyConES2014/templates/base.html:60 PyConES2014/templates/blog.html:10
+#: PyConES2014/templates/base.html:66 PyConES2014/templates/blog.html:10
 msgid "Código de conducta"
 msgstr "Codi de conducta"
 
-#: PyConES2014/templates/base.html:61 PyConES2014/templates/blog.html:11
+#: PyConES2014/templates/base.html:67 PyConES2014/templates/blog.html:11
+msgid "Charlas Propuestas"
+msgstr "Xerrades propostes"
+
+#: PyConES2014/templates/base.html:68 PyConES2014/templates/blog.html:12
 msgid "Blog"
 msgstr "Bloc"
 
-#: PyConES2014/templates/blog.html:27
+#: PyConES2014/templates/blog.html:28
 msgid "Volver"
 msgstr "Tornar"
 
