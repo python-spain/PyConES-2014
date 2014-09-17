@@ -3,7 +3,6 @@ from flask import Flask, render_template, request, g
 from flask_flatpages import FlatPages
 from flask_markdown import markdown
 import requests
-import json
 
 app = Flask(__name__)
 app.config['LANGUAGES'] = {
@@ -59,9 +58,9 @@ def talks():
     trello_wshop = requests.get('https://api.trello.com/1/lists/5412f25f85af556ea8c1e06b/cards')
     return render_template(
         'charlas.html',
-        trello_talks = json.loads(trello_talks.text),
-        trello_light = json.loads(trello_light.text),
-        trello_wshop = json.loads(trello_wshop.text)
+        trello_talks = sorted(trello_talks.json(), key=lambda talk: len(talk['idMembersVoted'])),
+        trello_light = trello_light.json(),
+        trello_wshop = trello_wshop.json()
     )
 
 def server():
