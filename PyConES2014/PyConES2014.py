@@ -8,7 +8,9 @@ app = Flask(__name__)
 app.config['LANGUAGES'] = {
     'en': 'English',
     'es': 'Español',
-    'ca': 'Català'
+    'ca': 'Català',
+    'gl': 'Galego',
+    'eu': 'Euskara'
 }
 app.secret_key = "SECRETKEY"
 
