@@ -3,70 +3,70 @@
 # This file is distributed under the same license as the PROJECT project.
 # 
 # Translators:
-# Juan Luis Cano <juanlu001@gmail.com>, 2014
-# AdaHopper <mai@immutable.es>, 2014
+# Aitzol Naberan <anaberan@codesyntax.com>, 2014
+# Belate <belateatorra@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Web PyConES 2014\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-09-10 20:50+0200\n"
-"PO-Revision-Date: 2014-09-12 17:22+0000\n"
-"Last-Translator: AdaHopper <mai@immutable.es>\n"
-"Language-Team: English (http://www.transifex.com/projects/p/web-pycones-2014/language/en/)\n"
+"PO-Revision-Date: 2014-09-15 09:58+0000\n"
+"Last-Translator: Belate <belateatorra@gmail.com>\n"
+"Language-Team: Basque (http://www.transifex.com/projects/p/web-pycones-2014/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
-"Language: en\n"
+"Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: PyConES2014/templates/base.html:61 PyConES2014/templates/blog.html:5
 msgid "Acerca de"
-msgstr "About"
+msgstr "Honi buruz"
 
 #: PyConES2014/templates/base.html:62 PyConES2014/templates/blog.html:6
 msgid "Cómo llegar"
-msgstr "Venue"
+msgstr "Nola heldu"
 
 #: PyConES2014/templates/base.html:63 PyConES2014/templates/blog.html:7
 #: PyConES2014/templates/index.html:89
 msgid "Patrocinadores"
-msgstr "Sponsors"
+msgstr "Babesleak"
 
 #: PyConES2014/templates/base.html:64 PyConES2014/templates/blog.html:8
 #: PyConES2014/templates/index.html:123
 msgid "Cómo participar"
-msgstr "Get involved"
+msgstr "Nola parte hartu"
 
 #: PyConES2014/templates/base.html:65 PyConES2014/templates/blog.html:9
 msgid "Call4Papers"
-msgstr "Call for papers"
+msgstr "Call4Papers"
 
 #: PyConES2014/templates/base.html:66 PyConES2014/templates/blog.html:10
 msgid "Código de conducta"
-msgstr "Code of conduct"
+msgstr "Jokaera kodea"
 
 #: PyConES2014/templates/base.html:67 PyConES2014/templates/blog.html:11
 msgid "Charlas Propuestas"
-msgstr "Proposed Talks"
+msgstr "Hitzaldiak Proposamenak"
 
 #: PyConES2014/templates/base.html:68 PyConES2014/templates/blog.html:12
 msgid "Blog"
-msgstr "Blog"
+msgstr "Bloga"
 
 #: PyConES2014/templates/blog.html:28
 msgid "Volver"
-msgstr "Back"
+msgstr "Itzuli"
 
 #: PyConES2014/templates/index.html:5
 msgid "¿Qué es PyConES 2014?"
-msgstr "What is PyConEs2014?"
+msgstr "Zer da PyConES 2014?"
 
 #: PyConES2014/templates/index.html:6
 msgid ""
 "PyConES es la conferencia nacional de Python <br/> con mayor relevancia de "
 "España."
-msgstr "PyConES is the national Python conference <br/> more relevant in Spain. "
+msgstr "Espainian egiten den Pythoni buruzko konferentzia<br/>garrantzitsuena da PyConES"
 
 #: PyConES2014/templates/index.html:9
 msgid ""
@@ -76,7 +76,7 @@ msgid ""
 "                organización recae en el hackerspace de Zaragoza, Dlabs con la\n"
 "                colaboración de la asociación Python España y el Grupo de Python\n"
 "                Zaragoza."
-msgstr "<span class=text-primary>PyConES</span> second edition will be held, after the first edition's\nsuccess last year in Madrid, under the global event\n<a href=\"http://pycon.org\">PyCon</a> format. In this edition, the organization\nis by the hand of the Zaragoza Hackerspace, Dlabs, with the collaboration\nof the Python Spain association and the Python Zaragoza user group. "
+msgstr ""
 
 #: PyConES2014/templates/index.html:24
 msgid ""
@@ -87,7 +87,7 @@ msgid ""
 "                  especie de laboratorio de desarrollo abierto. Ahora mismo el\n"
 "                  hackerspace cuenta con una veintena de socios que coordinarán y\n"
 "                  organizarán el evento de este año junto a otros voluntarios."
-msgstr "A hackerspace is a physical place where people who has diverse\ninterests can get to know each other, socialize and collaborate. Dlabs\ngives us a space where we can meet, share knowledge\nand materials, creating some kind of open development laboratory. Right now,\nZaragoza's hackerspace has about twenty members who will coordinate\nand organise this year's event, along with many other volunteers."
+msgstr ""
 
 #: PyConES2014/templates/index.html:35
 msgid ""
@@ -95,11 +95,11 @@ msgid ""
 "                   camino entre Madrid y Barcelona, con buenas comunicaciones por carretera y tren\n"
 "                   de alta velocidad, y cuenta con una buena oferta hostelera, gastronómica y de\n"
 "                   ocio nocturno, lo que la hace una ciudad ideal para la celebración de congresos."
-msgstr "Zaragoza is the fifth city in Spain by size. It's enclaved halfway between\nMadrid and Barcelona, well served by road and high speed train (AVE). It counts\nwith a good gastronomic, nightlife and hotel offer, which makes it the ideal city\nfor holding big conferences. "
+msgstr ""
 
 #: PyConES2014/templates/index.html:44
 msgid "Ediciones anteriores"
-msgstr "Previous editions"
+msgstr "Aurreko ekitaldiak"
 
 #: PyConES2014/templates/index.html:45
 msgid "PyConES 2013"
@@ -112,21 +112,21 @@ msgid ""
 "                La conferencia contó con más de 20 patrocinadores y más de 300\n"
 "                asistentes, así como casi 10.000 visualizaciones de las charlas en\n"
 "                los seis meses posteriores a la celebración del evento."
-msgstr "<span>PyConES 2013 was held at Madrid's Universidad Politecnica (UPM) in November 2013.</span><br/>\nThe conference had more than 20 sponsors, more than 300 attendees and\nalmost 10.000 views of the talks in the next six months. "
+msgstr ""
 
 #: PyConES2014/templates/index.html:53
 msgid ""
 "Para más información, puedes visitar el archivo de la edición\n"
 "                2013 <a href=\"http://2013.es.pycon.org\" target=\"_new\">aquí</a>"
-msgstr "For further info, you can watch the 2013 edition\narchive <a href=\"http://2013.es.pycon.org\" target=\"_new\">here</a>"
+msgstr "Informazio gehiago nahi baldin baduzu, 2013ko jardunaldien artxiboa  <a href=\"http://2013.es.pycon.org\" target=\"_new\">hemen</a> dago"
 
 #: PyConES2014/templates/index.html:64
 msgid "Lugar"
-msgstr "Venue"
+msgstr "Tokia"
 
 #: PyConES2014/templates/index.html:66
 msgid "Etopia - Centro de Arte y Tecnología"
-msgstr "Etopia - Centre for Art and Technology "
+msgstr "Etopia - Centro de Arte y Tecnología"
 
 #: PyConES2014/templates/index.html:69
 msgid ""
@@ -141,52 +141,52 @@ msgid ""
 "                   ámbitos surgidos por la intersección del arte y la tecnología,\n"
 "                   laboratorio de ideas para la ciudad digital e incubadora de\n"
 "                   nuevas empresas del sector de los contenidos."
-msgstr "Zaragoza's Center for Art and Technology is a new-generation equipment\ndesigned to hold and promote the most innovative and creative\nprojects within the scope of \"Milla Digital\".<br/>\nA powerful installation with a total surface area of more than 16.000 m2\nwhich will work, at the same time, as a centre for contemporary culture,\nshowcase of the most cutting-edge expressions and workshop for\nthe makers and technologists, a space of specialized training in the\nnew scopes emerging from the intersection of art and technology,\na lab for ideas about the digital city and incubator for new\nenterprises in the content sector. "
+msgstr ""
 
 #: PyConES2014/templates/index.html:82
 msgid "Ver mapa más grande"
-msgstr "View larger map"
+msgstr "Mapa handiagoa ikusi"
 
 #: PyConES2014/templates/index.html:82
 msgid "Ver mapa en Google Maps"
-msgstr "View map on Google Maps"
+msgstr "Mapa Google Mapsen ikusi"
 
 #: PyConES2014/templates/index.html:92
 msgid "Platino"
-msgstr "Platinum"
+msgstr "Platinozkoa"
 
 #: PyConES2014/templates/index.html:95
 msgid "Oro"
-msgstr "Gold"
+msgstr "Urrezkoa"
 
 #: PyConES2014/templates/index.html:98
 msgid "Plata"
-msgstr "Silver"
+msgstr "Zilarrezkoa"
 
 #: PyConES2014/templates/index.html:101
 msgid "Colaboradores"
-msgstr "Partners"
+msgstr "Laguntzaileak"
 
 #: PyConES2014/templates/index.html:113
 msgid "¡Tú también puedes patrocinar PyConES!"
-msgstr "You can sponsor PyConES too!"
+msgstr "Zuk ere babestu dezakezu PyConES"
 
 #: PyConES2014/templates/index.html:116
 #, python-format
 msgid ""
 "Si estás interesado en patrocinar PyConES 2014, <a "
 "href=\"%(url_sponsor)s\">este documento</a> es para ti</b>"
-msgstr "If you're interested in sponsoring PyConES 2014, <a href=\"%(url_sponsor)s\">this document</a> is for you</b>"
+msgstr "PyConES 2014 babestu nahi baldin baduzu, zuretzako da <a href=\"%(url_sponsor)s\">dokumentu hau</a></b>"
 
 #: PyConES2014/templates/index.html:118
 msgid ""
 "Puedes ponerte en contacto con nosotros <a "
 "href=\"mailto:pycon2014@dlabs.co\">en pycon2014@dlabs.co</a>"
-msgstr "You can get in touch with us <a href=\"mailto:pycon2014@dlabs.co\">at pycon2014@dlabs.co</a>"
+msgstr "Gurekin harremanetan jar zaitezke <a href=\"mailto:pycon2014@dlabs.co\"> pycon2014@dlabs.co emailean</a>"
 
 #: PyConES2014/templates/index.html:124
 msgid "La conferencia todavía se está gestando"
-msgstr "The conference is still being brewing"
+msgstr "Jardunaldia oraindik osatze prozesuan dago"
 
 #: PyConES2014/templates/index.html:125
 msgid ""
@@ -195,23 +195,23 @@ msgid ""
 "            más veinte personas implicadas, está preparando los recursos para\n"
 "            que podáis participar y luchando por conseguir a los mejores\n"
 "            conferenciantes y las charlas más interesantes."
-msgstr "We're working hard to offer you a spectacular PyConES event.\nOur organization, volunteer and collaborator team, with more than\ntwenty people, is getting the resources ready for you to participate\nand struggling to get the best speakers and most interesting talks. "
+msgstr ""
 
 #: PyConES2014/templates/index.html:130
 msgid "Actualmente puedes acceder a los siguientes recursos:"
-msgstr "At this moment you can access the following resources:"
+msgstr "Egun baliabide hauek dauzkazu eskuragarri:"
 
 #: PyConES2014/templates/index.html:132
 msgid "Correo electrónico de colaboradores"
-msgstr "Collaborator mail"
+msgstr "Laguntzaileen email helbidea"
 
 #: PyConES2014/templates/index.html:133
 msgid "Correo interno de organización de Dlabs Hackerspace"
-msgstr "Internal organization mail for Dlabs Hackerspace"
+msgstr "Antolakuntzaren Dlabs Hackerspace barne email helbidea"
 
 #: PyConES2014/templates/index.html:134
 msgid "Trello público"
-msgstr "Public Trello"
+msgstr "Trello publikoa"
 
 #: PyConES2014/templates/index.html:140
 msgid "Call for papers"
@@ -219,11 +219,11 @@ msgstr "Call for papers"
 
 #: PyConES2014/templates/index.html:141
 msgid "¡Atentos, ponentes!"
-msgstr "This is for you, speakers!"
+msgstr "Hizlariok, adi!"
 
 #: PyConES2014/templates/index.html:144
 msgid "¡Abierta la convocatoria para presentar ponencias en la PyConES 2014!"
-msgstr "Call4Papers is open for PyConES 2014!"
+msgstr "PyConES 2014 aurkezpenak bidaltzeko deialdia zabalik da!"
 
 #: PyConES2014/templates/index.html:145
 msgid ""
@@ -231,66 +231,66 @@ msgid ""
 "                posible para facilitar el viaje y alojamiento a los ponentes de\n"
 "                PyConES 2014, además, gozarán de entrada gratuita y un regalo\n"
 "                especial que anunciaremos en la ceremonia de despedida."
-msgstr "Sponsorship is not yet closed, but we'll do everything that is in our\nhands to help with the travel and accommodation of the speakers.\nThey'll also get a free ticket and a special gift that we'll announce\nat the farewell ceremony. "
+msgstr ""
 
 #: PyConES2014/templates/index.html:151
 msgid "Tipos de ponencia a presentar"
-msgstr "Types of papers"
+msgstr "Aurkeztu daitezkeen hitzaldiak"
 
 #: PyConES2014/templates/index.html:152
 msgid "Charlas - 50 minutos de charla técnica"
-msgstr "Talks - 50 minutes of technical talk"
+msgstr "Hitzaldia - 50 minutuko hitzaldi teknikoa"
 
 #: PyConES2014/templates/index.html:153
 msgid "Lightning talks - 10 minutos de ponencia o presentación de producto."
-msgstr "Lightning talks - 10 minutes of product presentation or technical talk"
+msgstr "Lightning talks - 10 minutuko aurkezpena edo produktu aurkezpena."
 
 #: PyConES2014/templates/index.html:154
 msgid "Talleres - entre 50 minutos y 2 horas de taller"
-msgstr "Workshops - between 50 minutes and 2 hours"
+msgstr "Tailerra - 50 minutu eta 2 ordurarteko tailerra"
 
 #: PyConES2014/templates/index.html:157
 msgid "Algunas fechas importantes"
-msgstr "Some important dates"
+msgstr "Data garrantzitsu batzuk"
 
 #: PyConES2014/templates/index.html:160
 msgid "10 de septiembre - Límite del plazo de presentación de ponencias"
-msgstr "September 10th - Deadline for submitting a talk"
+msgstr "Irailak 10 - Hitzaldiak aurkezteko epe bukaera"
 
 #: PyConES2014/templates/index.html:161
 msgid "3-6 noviembre - Curso de Python en Dlabs"
-msgstr "November 3rd-6th - Python course at Dlabs Hackerspace"
+msgstr "Azaroak 3-6 - Python ikastaroa Dlabsen"
 
 #: PyConES2014/templates/index.html:162
 msgid "7 de noviembre - BetaBeers especial PyConES "
-msgstr "November 7th - Special BetaBeers PyConES"
+msgstr "Azaroak 7 - PyConES BetaBeers berezia"
 
 #: PyConES2014/templates/index.html:166
 msgid ""
 "Si tienes una propuesta de charla, envíanos un correo a\n"
 "                <a href=\"mailto:pycon2014@dlabs.co\">pycon2014@dlabs.co</a> con\n"
 "                los siguientes puntos:"
-msgstr "If you've got a talk proposal, send us a mail to\n<a href=\"mailto:pycon2014@dlabs.co\">pycon2014@dlabs.co</a> with\nthe following information:"
+msgstr "Hitzaldi proposamenen bat baldin badaukazum bidaliguzu email bat <a href=\"mailto:pycon2014@dlabs.co\">pycon2014@dlabs.co</a> helbidera puntu hauek zehaztuz:"
 
 #: PyConES2014/templates/index.html:172
 msgid "<em>Asunto:</em> \"PyConES 2014 - Call4Papers Response\""
-msgstr "<em>Subject:</em> \"PyConEs2014 - Call4Papers Response\""
+msgstr "<em>Gaia:</em> \"PyConES 2014 - Call4Papers Response\""
 
 #: PyConES2014/templates/index.html:173
 msgid "<em>Cuerpo:</em> Pequeño extracto del tema tu charla"
-msgstr "<em>Body:</em> Small abstract of your talk"
+msgstr "<em>Gorputza:</em> Hitzaldiaren laburpentxoa"
 
 #: PyConES2014/templates/index.html:174
 msgid "<em>Incluye la duración de tu charla</em>"
-msgstr "<em>Add your talk duration</em>"
+msgstr "<em>Hitzaldiaren iraupena</em>"
 
 #: PyConES2014/templates/index.html:175
 msgid "<em>Cuéntanos algo sobre ti mismo</em>"
-msgstr "<em>Tell us something about yourself</em>"
+msgstr "<em>Esaiguzu zerbait zutaz</em>"
 
 #: PyConES2014/templates/index.html:181
 msgid " Código de conducta "
-msgstr "Code of conduct"
+msgstr " Jokabide-kodea"
 
 #: PyConES2014/templates/index.html:183
 msgid ""
@@ -311,4 +311,4 @@ msgid ""
 "                Si algún participante infringiera este código de conducta, la organización podrá\n"
 "                tomar las medidas que considere adecuadas, como la amonestación o la expulsión\n"
 "                sin derecho a reembolso."
-msgstr "All assistants are required to show respect and courtesy towards\nthe rest during the conference. <br/>\nSpecifically, all delegates, speakers and volunteers taking\npart in PyConES-related activities should adhere to the present\ncode of conduct. Organization will enforce the fulfilment of\nthis code of conduct.<br/>\nPyConEs aims to create a discrimination free environment.\nGender, sexual orientation, disability, physical aspect, ethnics\nor religion-based discriminations will not be tolerated under\nany circumstance.<br/>\nIf any participant breaks this code of conduct, organization\nreserves the right to take the adequate measures, like\ncaution or expulsion without right to be reimbursed.\n        "
+msgstr ""
