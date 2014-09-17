@@ -57,15 +57,11 @@
 
     <h3> Las votaciones transcurren de la siguiente forma </h3>
     <ul class=unstyled>
-    {%for talk in trello_talks%}
+    {%for talk in total_talks%}
         <li>
             <span class=text-warning>{{ talk.idMembersVoted|count }}</span> &nbsp; {{ talk.name }} - {{talk.desc.split('\n', 1)[0]}}
         </li>
     {%endfor%}
     </ul>
-
-
-
-
 
 {%endblock%}
