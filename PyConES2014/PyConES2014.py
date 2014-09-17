@@ -56,7 +56,7 @@ def index():
 @app.route('/talks', methods=['GET'])
 def talks():
     trello_talks = requests.get('https://api.trello.com/1/lists/53a70c099f3ce8897416347b/cards')
-    trello_light = requests.get('https://api.trello.com/1/lists/538d8d3461b92467e2686d3a/cards')
+    trello_light = requests.get('https://api.trello.com/1/lists/53d038a3f52787e522bb6a74/cards')
     trello_wshop = requests.get('https://api.trello.com/1/lists/5412f25f85af556ea8c1e06b/cards')
     return render_template(
         'charlas.html',
