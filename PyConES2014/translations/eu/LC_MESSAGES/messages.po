@@ -5,13 +5,14 @@
 # Translators:
 # Aitzol Naberan <anaberan@codesyntax.com>, 2014
 # Belate <belateatorra@gmail.com>, 2014
+# Belate <belateatorra@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Web PyConES 2014\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-09-10 20:50+0200\n"
-"PO-Revision-Date: 2014-09-15 09:58+0000\n"
-"Last-Translator: Belate <belateatorra@gmail.com>\n"
+"PO-Revision-Date: 2014-09-18 05:50+0000\n"
+"Last-Translator: Aitzol Naberan <anaberan@codesyntax.com>\n"
 "Language-Team: Basque (http://www.transifex.com/projects/p/web-pycones-2014/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,7 +77,7 @@ msgid ""
 "                organización recae en el hackerspace de Zaragoza, Dlabs con la\n"
 "                colaboración de la asociación Python España y el Grupo de Python\n"
 "                Zaragoza."
-msgstr ""
+msgstr "<span class=text-primary>PyConES</span>-ek bere bigarren edizioa izango du,\n                iaz Madrilen izandakoaren arrakastaren ostean, mundu mailako\n                 <a href=\"http://pycon.org\">PyCon</a> ekitaldiaren formatuarekin.\n                 Oraingoan antolatzailea Zaragozako hackerspace, Dlabs izango da\n                Python España elkartearen eta Zaragozako Python taldearen laguntzarekin."
 
 #: PyConES2014/templates/index.html:24
 msgid ""
@@ -87,7 +88,7 @@ msgid ""
 "                  especie de laboratorio de desarrollo abierto. Ahora mismo el\n"
 "                  hackerspace cuenta con una veintena de socios que coordinarán y\n"
 "                  organizarán el evento de este año junto a otros voluntarios."
-msgstr ""
+msgstr "Hackerspace bat toki fisiko bat da, interes ezberdina duten lagunak\n                  elkartzeko eta kolaboratzeko aukera ematen duena. DLabs-ek aukera\n                  ematen digu jardunbide ezberdina dugun hainbat lagun\n                  elkartzeko, jakintza eta materialeak trukatzeko,\n                  garapen irekiko laborategi moduko bat sortuz. Une honetan,\n                  hackerspace-ak hogei bazkide inguru ditu, eta eurak izango dira\n                  aurtengo ekitaldia antolatuko dutenak, hainbat bolondresen laguntzarekin."
 
 #: PyConES2014/templates/index.html:35
 msgid ""
@@ -95,7 +96,7 @@ msgid ""
 "                   camino entre Madrid y Barcelona, con buenas comunicaciones por carretera y tren\n"
 "                   de alta velocidad, y cuenta con una buena oferta hostelera, gastronómica y de\n"
 "                   ocio nocturno, lo que la hace una ciudad ideal para la celebración de congresos."
-msgstr ""
+msgstr "Zaragoza Espainiako 5. hiririk handiena da. Bartzelona eta\n                  Madril artean dago, ondo komunikatuta, bai errepidez\n                  zein trenez. Hiriak eskaintzen duen aukera zabala da\n                 esparru guztietan, izan hoteletan, gastronomian, zein aisialdian.\n                 Hori dela eta, hiri egoki-egokia da jardunaldiak antolatzeko."
 
 #: PyConES2014/templates/index.html:44
 msgid "Ediciones anteriores"
@@ -112,7 +113,7 @@ msgid ""
 "                La conferencia contó con más de 20 patrocinadores y más de 300\n"
 "                asistentes, así como casi 10.000 visualizaciones de las charlas en\n"
 "                los seis meses posteriores a la celebración del evento."
-msgstr ""
+msgstr "<span>Iazko PyConES 2013 Madrilgo Unibertsitate Politeknikoan ospatu zen,\n                2013ko azaroan.</span>. Jardunaldiak 20 babesle baino gehiago\n                izan zituen eta 300 lagunetik gorako parte-hartzea.\n                Ekitaldiaren osteko hilabeteetan, hitzaldiak 10.000 aldiz ikusi\n                ziren sarean."
 
 #: PyConES2014/templates/index.html:53
 msgid ""
@@ -141,7 +142,7 @@ msgid ""
 "                   ámbitos surgidos por la intersección del arte y la tecnología,\n"
 "                   laboratorio de ideas para la ciudad digital e incubadora de\n"
 "                   nuevas empresas del sector de los contenidos."
-msgstr ""
+msgstr "Zaragozako \"Centro de Arte y Tecnología\" eraikin berri eta modernoa da\n                   \"Milla Digital\" delakoaren baitan kokatua eta proiektu berritzaileak\n                   hedatzeko antolatutako ekitaldietarako diseinatua.\n                   16.000 m2-ko zabalera duen instalazio eraginkorra da eta bere\n                   funtzioen artean daude: kultura garaikidearen zentro izatea, \n                   abanguardiako adierazpen artistikoen erakusleiho,\n                   sortzaile eta teknologoentzat tailer,\n                   artearen eta teknologiaren arteko zubi egiten duten proiektuentzat gune,\n                   ideien laborategi, eta edukietan oinarrituko diren enpresa berrientzat mintegi."
 
 #: PyConES2014/templates/index.html:82
 msgid "Ver mapa más grande"
@@ -195,7 +196,7 @@ msgid ""
 "            más veinte personas implicadas, está preparando los recursos para\n"
 "            que podáis participar y luchando por conseguir a los mejores\n"
 "            conferenciantes y las charlas más interesantes."
-msgstr ""
+msgstr "PiConES ikusgarria eskaini nahi dizuegu, eta gogor ari gara lanean helburu horrekin.\n            Antolatzaile, laguntzaile eta bolondresen artean 20 lagunetik gorako lantaldea\n            osatu dugu, eta buru-belarri ari gara ahalik eta hizlari onenak eta hitzaldirik\n            interesgarrienak lortu ahal izateko."
 
 #: PyConES2014/templates/index.html:130
 msgid "Actualmente puedes acceder a los siguientes recursos:"
@@ -203,11 +204,11 @@ msgstr "Egun baliabide hauek dauzkazu eskuragarri:"
 
 #: PyConES2014/templates/index.html:132
 msgid "Correo electrónico de colaboradores"
-msgstr "Laguntzaileen email helbidea"
+msgstr "Laguntzaileen helbide elektronikoa"
 
 #: PyConES2014/templates/index.html:133
 msgid "Correo interno de organización de Dlabs Hackerspace"
-msgstr "Antolakuntzaren Dlabs Hackerspace barne email helbidea"
+msgstr "Dlabs Hackerspace antolatzaileen barne emaila"
 
 #: PyConES2014/templates/index.html:134
 msgid "Trello público"
@@ -231,7 +232,7 @@ msgid ""
 "                posible para facilitar el viaje y alojamiento a los ponentes de\n"
 "                PyConES 2014, además, gozarán de entrada gratuita y un regalo\n"
 "                especial que anunciaremos en la ceremonia de despedida."
-msgstr ""
+msgstr "Babesak ez daude oraindik itxita, baina ahal dugun guztia egingo\n                dugu PyConES 2014-ko hizlarien bidaia eta ostatatzea\n                lortzeko. Gainera, hizlariek, sarrera doan izango dute eta\n                opari berezi bat jasoko dute amaiera-ekitaldian."
 
 #: PyConES2014/templates/index.html:151
 msgid "Tipos de ponencia a presentar"
@@ -247,7 +248,7 @@ msgstr "Lightning talks - 10 minutuko aurkezpena edo produktu aurkezpena."
 
 #: PyConES2014/templates/index.html:154
 msgid "Talleres - entre 50 minutos y 2 horas de taller"
-msgstr "Tailerra - 50 minutu eta 2 ordurarteko tailerra"
+msgstr "Tailerra - 50 minutu eta 2 ordura arteko tailerra"
 
 #: PyConES2014/templates/index.html:157
 msgid "Algunas fechas importantes"
@@ -255,7 +256,7 @@ msgstr "Data garrantzitsu batzuk"
 
 #: PyConES2014/templates/index.html:160
 msgid "10 de septiembre - Límite del plazo de presentación de ponencias"
-msgstr "Irailak 10 - Hitzaldiak aurkezteko epe bukaera"
+msgstr "Irailak 10 - Hitzaldiak aurkezteko epea"
 
 #: PyConES2014/templates/index.html:161
 msgid "3-6 noviembre - Curso de Python en Dlabs"
@@ -270,7 +271,7 @@ msgid ""
 "Si tienes una propuesta de charla, envíanos un correo a\n"
 "                <a href=\"mailto:pycon2014@dlabs.co\">pycon2014@dlabs.co</a> con\n"
 "                los siguientes puntos:"
-msgstr "Hitzaldi proposamenen bat baldin badaukazum bidaliguzu email bat <a href=\"mailto:pycon2014@dlabs.co\">pycon2014@dlabs.co</a> helbidera puntu hauek zehaztuz:"
+msgstr "Hitzaldi proposamenen bat baldin badaukazu bidaliguzu email bat <a href=\"mailto:pycon2014@dlabs.co\">pycon2014@dlabs.co</a> helbidera puntu hauek zehaztuz:"
 
 #: PyConES2014/templates/index.html:172
 msgid "<em>Asunto:</em> \"PyConES 2014 - Call4Papers Response\""
@@ -311,4 +312,4 @@ msgid ""
 "                Si algún participante infringiera este código de conducta, la organización podrá\n"
 "                tomar las medidas que considere adecuadas, como la amonestación o la expulsión\n"
 "                sin derecho a reembolso."
-msgstr ""
+msgstr "Espero dugu parte-hartzaile guztien artean errespetua eta gizalegea\n                nagusitzea konferentzia osoan zehar.\n                <br />\n                Delegatu, hizlari, erakusle, bolondres eta parte-hartzaile guztiek\n                jarraitu beharko dute jokaera kodea. Antolatzaileen lana izango da kode|n                hori bete araztea.\n               <br />\n\n               Inolako jazarpen eta diskriminaziorik gabeko giroa lortu nahi dugu PyConES-en\n               arrazoia edozein dela ere (generoa, orientazio sexuala, ezintasuna, itxura fisikoa,\n               jatorria, arraza edo erlijioa.\n               Ez dugu onartuko inolako bazterketarik, inolako kasuan ere.\n                <br/>\n\n               Inork arauak eta jokaera kodea hautsiko balitu,\n               antolatzaileen esku egongo da behar den neurria hartzea, baita jardunalditik\n              botatzea ere."
