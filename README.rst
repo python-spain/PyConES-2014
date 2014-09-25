@@ -17,7 +17,7 @@ PyConES2014 page
 * Free software: BSD license
 * Documentation: https://PyConES2014.readthedocs.org.
 
-Features
---------
+DEPLOY STATUS
+--------------
 
-* TODO
+DO NOT DEPLOY UNTIL TALKS ARE FINAL
