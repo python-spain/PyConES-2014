@@ -8,7 +8,7 @@
                   <li><a onclick="window.location.href='/#comoparticipar'" href="#comoparticipar">{{ _('Cómo participar') }}</a></li>
                   <li><a onclick="window.location.href='/#call4papers'" href="#call4papers">{{ _('Call4Papers') }}</a></li>
                   <li><a onclick="window.location.href='/#codigodeconducta'" href="#codigodeconducta">{{ _('Código de conducta') }}</a></li>
-                  <li><a onclick="window.location.href='/talks'" href="/talks">{{ _('Charlas Propuestas') }}</a></li>
+                  <li><a onclick="window.location.href='/talks'" href="/talks">{{ _('Charlas') }}</a></li>
                   <li><a href="/blog" onclick="window.location.href='/blog'">{{ _('Blog') }}</a></li>
               </ul>
 
@@ -17,7 +17,7 @@
     {%endblock%}
 
     {% block body %}
-    <h2 class="text-center text-danger"> Actualmente hemos recibido {{ trello_talks|count }} propuestas de charlas, {{trello_wshop|count}} propuestas de talleres y {{trello_light|count}} propuestas de lightning talks </h2>
+    <h2 class="text-center text-danger"> Contamos con {{ trello_talks|count }} charlas, {{trello_wshop|count}} talleres y {{trello_light|count}} lightning talks </h2>
     <h1 class=text-danger>Charlas</h1>
     {%for talk in trello_talks%}
         <h1 class=text-center> {{talk.name}}</h1>
@@ -26,7 +26,6 @@
 {{ talk.desc }}
             {%endmarkdown%}
         </div>
-        <h3 class=text-info>Votos {{talk.idMembersVoted|count}}</h3>
         <hr/>
     {%endfor%}
 
@@ -38,7 +37,6 @@
 {{ talk.desc }}
             {%endmarkdown%}
         </div>
-        <h3 class=text-info>Votos {{talk.idMembersVoted|count}}</h3>
         <hr/>
     {%endfor%}
 
@@ -51,17 +49,6 @@
 {{ talk.desc }}
             {%endmarkdown%}
         </div>
-        <h3 class=text-info>Votos {{talk.idMembersVoted|count}}</h3>
         <hr/>
     {%endfor%}
-
-    <h3> Las votaciones transcurren de la siguiente forma </h3>
-    <ul class=unstyled>
-    {%for talk in total_talks%}
-        <li>
-            <span class=text-warning>{{ talk.idMembersVoted|count }}</span> &nbsp; {{ talk.name }} - {{talk.desc.split('\n', 1)[0]}}
-        </li>
-    {%endfor%}
-    </ul>
-
 {%endblock%}
