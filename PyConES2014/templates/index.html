@@ -1,6 +1,30 @@
 {% extends 'base.html' %}
 {% block body %}
+
       <div class=row>
+          <h1 class="text-center text-primary"> Organizan </h1>
+          <div class="col-lg-12" style="padding: 15px 15px 0 15px;">
+            <div class=" block-center center-block sponsor" style="width:60%; min-height:100px;">
+              <a href="http://www.dlabs.co">
+                  <img alt="Dlabs logo" style="margin-left:140px; float:left; width:70%;
+                  margin-right: 15px;" class="text-center img-responsive" src="{{url_for('static', filename='img/dlabs.png')}}" />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-12" style="padding: 15px 15px 0 15px;">
+            <div class="center-block sponsor" style="width:60%; min-height:100px;">
+              <a href="http://www.zaragoza.es/ciudad/etopia">
+                  <img alt="Etopia logo" style="width:30%;float:left;
+                  margin-left:140px" class="img-responsive"
+                  src="{{url_for('static', filename='img/etopia.jpg')}}" />
+                  <img alt="Ayto zaragoza logo" style="float:left; width:30%;" class="img-responsive"
+                  src="{{url_for('static', filename='img/ayto.png')}}" />
+
+              </a>
+            </div>
+          </div>
+
         <div class=col-lg-12>
             <h1 id=acercade class="scrollto text-primary text-center">{{ _('¿Qué es PyConES 2014?') }}</h1>
             <p class="lead uppercase text-center">{{ _('PyConES es la conferencia nacional de Python <br/> con mayor relevancia de España.') }}</p>
@@ -90,23 +114,27 @@
             <p class=lead>
               <p class="lead text-center">
               <h3 class=text-center style="clear:both">{{ _('Platino') }}</h3>
-                <img alt="Etopia logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/etopia.png')}}" />
-                <img alt="psf logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/psf.png')}}" />
+                <img alt="psf logo" style="float:center;margin-right: 15px;"
+                class="center-block text-center col-md-3 img-responsive" src="{{url_for('static', filename='img/psf.png')}}" />
+                <br/>
               <h3 class=text-center  style="clear:both" >{{ _('Oro') }}</h3>
                 <img alt="qdqmedia logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/qdqmedia.png')}}" />
                 <img alt="scrapinghub logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/scrapinghub.png')}}" />
-                <!--                <img alt="ticketea logo"
-                style="margin-left:50px; float: left; margin-right: 15px;"
-                class="col-md-3 img-responsive" src="{{url_for('static',
-                filename='img/ticketea.png')}}" /> -->
+                <img alt="ticketea logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/ticketea.png')}}" />
+                <br/>
               <h3 class=text-center  style="clear:both" >{{ _('Plata') }}</h3>
                 <img alt="telefonica logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/telefonica.png')}}" />
+                <img alt="gisce logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/gisce.png')}}" />
+                <img alt="apsl logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/apsl.png')}}" />
                 <img alt="logo logo" style="float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/logo.gif')}}" />
+                <br/>
               <h3 class=text-center  style="clear:both" >{{ _('Colaboradores') }}</h3>
                 <img alt="gaceta logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/gaceta.png')}}" />
                 <img alt="pycharm logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/pycharm.png')}}" />
                 <img alt="github logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/github.png')}}" />
-                <img alt="osluz logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/osluz.png')}}" />
+                <img alt="pythonzaragoza logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/pythonzaragoza.png')}}" />
+                <img alt="pythonespana logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/pythonespana.png')}}" />
+                <br/>
               </p>
             <p class=lead>
             </p>
