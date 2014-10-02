@@ -2,6 +2,8 @@
 from flask import Flask, render_template, request, g
 from flask_flatpages import FlatPages
 from flask_markdown import markdown
+from werkzeug.contrib.atom import AtomFeed
+from urlparse import urljoin
 import requests
 
 app = Flask(__name__)
@@ -63,8 +65,31 @@ def talks():
         trello_talks = trello_talks.json(),
         trello_light = trello_light.json(),
         trello_wshop = trello_wshop.json(),
-        total_talks = sorted(trello_talks.json() + trello_light.json() + trello_wshop.json(), key=lambda talk: len(talk['idMembersVoted']), reverse=True)
+        total_talks = sorted(trello_talks.json() + trello_light.json() + trello_wshop.json(), key=lambda talk: len(talk['idMembersVoted']), reverse=True),
+        trello_speakers_talks = set([talk['name'] for talk in trello_talks.json()]),
+        trello_speakers_wshop = set([talk['name'] for talk in trello_wshop.json()]),
+        trello_speakers_light = set([talk['name'] for talk in trello_light.json()]),
     )
+
+def make_external(url):
+        return urljoin(request.url_root, url)
+
+
+@app.route('/recent.atom')
+def blogfeed():
+    feed = AtomFeed('Articulos Recientes', feed_url=request.url, url=request.url_root)
+    for article in pages:
+        if article.meta['published']:
+            feed.add(
+                article.meta['title'],
+                article.html,
+                author = article.meta['author'],
+                url = urljoin(request.url_root, "/blog/" + article.meta['language']+ "/" + article.meta['post_id']),
+                published = article.meta['published'],
+                updated = article.meta['published']
+            )
+
+    return feed.get_response()
 
 def server():
     """ Main server, will allow us to make it wsgi'able """
