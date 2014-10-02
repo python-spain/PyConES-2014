@@ -151,9 +151,12 @@
                 <h3> {{ _('¡Descuentos!')}} </h3>
                     <ul>
                         <li>
-                        {{ _('¡Descarga') }} <a href="{{url_for('static', filename='renfe_descuento.pdf')}}"> {{ _('aquí')}}</a> {{ _('tu 30%% de descuento en RENFE para asistir a la conferencia!')}}
+                            {{ _('¡Descarga') }} <a href="{{url_for('static', filename='renfe_descuento.pdf')}}"> {{ _('aquí')}}</a> {{ _('tu 30%% de descuento en RENFE para asistir a la conferencia!')}}
                         </li>
                     </ul>
+                <h3> {{ _('RSS') }} </h3>
+                <p> ¡No os perdais ningúna novedad sobre PyConES2014, seguid el
+                <a href="/recent.atom">RSS de nuestro blog!</a>
           </div>
       </div>
 
@@ -219,46 +222,12 @@
                 <li><a href="mailto:pycon2014@dlabs.co">{{ _('Correo interno de organización de Dlabs Hackerspace') }}</a></li>
                 <li><a href="https://trello.com/b/qlhISlt0/pycon2014">{{ _('Trello público') }}</a></li>
             </ul>
-        </div>
-    </div>
-    <div class=row>
-        <div class=col-lg-12>
-            <h1 id=call4papers class="scrollto text-primary text-center">{{ _('Call for papers') }}</h1>
-            <p class="lead uppercase text-center">{{ _('¡Atentos, ponentes!') }}<br/>
-            </p>
-
-            <p class=lead>{{ _('¡Abierta la convocatoria para presentar ponencias en la PyConES 2014!') }}<br/><br/>
-                {{ _('Actualmente los patrocinios no están cerrados, pero haremos todo lo
-                posible para facilitar el viaje y alojamiento a los ponentes de
-                PyConES 2014, además, gozarán de entrada gratuita y un regalo
-                especial que anunciaremos en la ceremonia de despedida.') }}
-            </p>
-
-            <p class=lead>{{ _('Tipos de ponencia a presentar') }}</p>
-            <ul class=lead><li>{{ _('Charlas - 50 minutos de charla técnica') }}</li>
-                <li>{{ _('Lightning talks - 10 minutos de ponencia o presentación de producto.') }}</li>
-                <li>{{ _('Talleres - entre 50 minutos y 2 horas de taller') }}</li>
-            </ul>
 
             <p class="lead">{{ _('Algunas fechas importantes') }}</p>
 
             <ul class=lead>
-                <li>{{ _('10 de septiembre - Límite del plazo de presentación de ponencias') }}</li>
                 <li>{{ _('3-6 noviembre - Curso de Python en Dlabs') }}</li>
                 <li>{{ _('7 de noviembre - BetaBeers especial PyConES ') }}</li>
-            </ul>
-
-            <p class="lead" style="font-weight:bold">
-                {{ _('Si tienes una propuesta de charla, envíanos un correo a
-                <a href="mailto:pycon2014@dlabs.co">pycon2014@dlabs.co</a> con
-                los siguientes puntos:') }}
-            </p>
-
-            <ul >
-                <li>{{ _('<em>Asunto:</em> "PyConES 2014 - Call4Papers Response"') }}</li>
-                <li>{{ _('<em>Cuerpo:</em> Pequeño extracto del tema tu charla') }}</li>
-                <li>{{ _('<em>Incluye la duración de tu charla</em>') }}</li>
-                <li>{{ _('<em>Cuéntanos algo sobre ti mismo</em>') }}</li>
             </ul>
         </div>
       </div>
