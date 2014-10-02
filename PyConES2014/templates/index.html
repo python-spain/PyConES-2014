@@ -63,6 +63,18 @@
               </p>
           </div>
         </div>
+
+        <div class=row>
+          <div class=col-lg-12>
+              <h1 class="text-primary text-center">{{_('¡Consigue tus entradas!')}}</h1>
+              <p class="lead text-center">
+                {{ _('¡Consigue ya tus entradas para la conferencia!') }}<br/>
+                {{ _('Las entradas están disponibles de la mano de ticketea <a href="https://www.ticketea.com/pycones14/"> aquí </a>')}}
+              </p>
+          </div>
+      </div>
+
+
       <div class=row>
         <div class=col-lg-12>
             <h1 class="text-primary text-center">{{ _('Ediciones anteriores') }}</h1>
@@ -80,8 +92,6 @@
             </p>
         </div>
     </div>
-
-
       <div class=row>
         <div class=col-lg-12>
 
@@ -108,13 +118,55 @@
     </div>
     <br/>
     <br/>
+
+        <div class=row>
+          <div class=col-lg-12>
+              <h1 class="text-primary text-center">{{_('Recursos útiles')}}</h1>
+              <h3>{{ _('Donde alojarse') }}</h3>
+                  <ul>
+                      <li>
+                          A 1 minuto - <a href="http://www.tryphotels.com/es/hotel-tryp-zaragoza-espana.html">{{ _('Hotel TRYP Zaragoza') }}</a>
+                      </li>
+
+                      <li>
+                          A 3 minutos - <a href="http://www.husa.es/hotel-husa-puerta-de-zaragoza.htm">{{_('Hotel USA Puerta zaragoza')}}</a>
+                      </li>
+                  </ul>
+                <h3> {{ _('Donde comer') }} </h3>
+                <ul>
+                    <li> En el hotel TRYP de enfrente</li>
+                    <li> En la estación delicias, a 2 minutos del evento a pie</li>
+                    <li> Podemos encontrar bares y restaurantes en la avenida
+                    puerta sancho, a cinco minutos del evento a pie</li>
+                </ul>
+                <h3> {{ _('Como llegar') }} </h3>
+                <ul>
+                    <li> En el autobús 42, bajando en puerta sancho</li>
+                    <li> En el autobus 51, Ci1 y Ci2 hasta la estación, y
+                    cruzando el puente peatonal</li>
+                    <li> Si vienes de fuera... ¡Esta justo enfrente de la
+                    estación! </li>
+                </ul>
+
+                <h3> {{ _('¡Descuentos!')}} </h3>
+                    <ul>
+                        <li>
+                        {{ _('¡Descarga') }} <a href="{{url_for('static', filename='renfe_descuento.pdf')}}"> {{ _('aquí')}}</a> {{ _('tu 30%% de descuento en RENFE para asistir a la conferencia!')}}
+                        </li>
+                    </ul>
+          </div>
+      </div>
+
+
+
+
       <div class=row>
           <div class=col-lg-12>
             <h1 id=patrocinadores class="scrollto text-primary text-center">{{ _('Patrocinadores') }}</h1>
             <p class=lead>
               <p class="lead text-center">
               <h3 class=text-center style="clear:both">{{ _('Platino') }}</h3>
-                <img alt="psf logo" style="float:center;margin-right: 15px;"
+                <img alt="psf logo" style="float:center;"
                 class="center-block text-center col-md-3 img-responsive" src="{{url_for('static', filename='img/psf.png')}}" />
                 <br/>
               <h3 class=text-center  style="clear:both" >{{ _('Oro') }}</h3>
@@ -134,6 +186,8 @@
                 <img alt="github logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/github.png')}}" />
                 <img alt="pythonzaragoza logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/pythonzaragoza.png')}}" />
                 <img alt="pythonespana logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/pythonespana.png')}}" />
+                <img alt="osluz logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/osluz.png')}}" />
+                <img alt="strs logo" style="margin-left:50px; float: left; margin-right: 15px;" class="col-md-3 img-responsive" src="{{url_for('static', filename='img/strs.png')}}" />
                 <br/>
               </p>
             <p class=lead>
