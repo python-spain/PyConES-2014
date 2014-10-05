@@ -55,6 +55,10 @@ def blog(language="es", post_id=False):
 def index():
     return render_template('index.html')
 
+@app.route('/info', methods=['GET'])
+def info():
+    return render_template('informacion.html')
+
 @app.route('/talks', methods=['GET'])
 def talks():
     trello_talks = requests.get('https://api.trello.com/1/lists/53a70c099f3ce8897416347b/cards')

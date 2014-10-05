@@ -68,99 +68,10 @@
           <div class=col-lg-12>
               <h1 class="text-primary text-center">{{_('¡Consigue tus entradas!')}}</h1>
               <p class="lead text-center">
-                {{ _('¡Consigue ya tus entradas para la conferencia!') }}<br/>
-                {{ _('Las entradas están disponibles de la mano de ticketea <a href="https://www.ticketea.com/pycones14/"> aquí </a>')}}
+                <div id="tkt-content">Compra aquí tus entradas</div><script language="javascript" type="text/javascript" src="https://www.ticketea.com/pycones14/buy?width=600px&height=600px&lang=es_es"></script><a href="https://www.ticketea.com/pycones14" alt="PyConES2014" title="ticketea"><img src="https://www.ticketea.com/images/powered_by.png" alt="ticketea" /></a>
               </p>
           </div>
       </div>
-
-
-      <div class=row>
-        <div class=col-lg-12>
-            <h1 class="text-primary text-center">{{ _('Ediciones anteriores') }}</h1>
-            <p class="lead uppercase text-center">{{ _('PyConES 2013') }}</p>
-            <p class=lead>
-                {{ _('<span>La PyConES 2013 se celebró en la Universidad Politécnica de
-                Madrid (UPM) en noviembre de 2013.</span> <br/>
-                La conferencia contó con más de 20 patrocinadores y más de 300
-                asistentes, así como casi 10.000 visualizaciones de las charlas en
-                los seis meses posteriores a la celebración del evento.') }}
-                <br/>
-                {{ _('Para más información, puedes visitar el archivo de la edición
-                2013 <a href="http://2013.es.pycon.org" target="_new">aquí</a>') }}
-
-            </p>
-        </div>
-    </div>
-      <div class=row>
-        <div class=col-lg-12>
-
-            <h1 id=comollegar class=" scrollto text-primary text-center">{{ _('Lugar') }}</h1>
-            <p class="lead uppercase text-center">
-                {{ _('Etopia - Centro de Arte y Tecnología') }}
-            </p>
-            <p class=lead>
-                   {{ _('El Centro de Arte y Tecnología de Zaragoza es un equipamiento de
-                   nueva generación diseñado para albergar y promover los proyectos
-                   creativos y emprendedores más innovadores dentro del espacio de
-                   la Milla Digital.<br/> Una potente instalación con una superficie
-                   total construida de más de 16.000 m2 que funcionará al mismo
-                   tiempo como centro de cultura contemporánea, escaparate de las
-                   expresiones artísticas más vanguardistas, taller para creadores y
-                   tecnólogos, espacio de formación especializada en los nuevos
-                   ámbitos surgidos por la intersección del arte y la tecnología,
-                   laboratorio de ideas para la ciudad digital e incubadora de
-                   nuevas empresas del sector de los contenidos.') }}
-
-            </p>
-            <iframe width="100%" height="450" frameborder="0" style="border:0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-0.9134209156036376%2C41.658020211719155%2C-0.9009647369384766%2C41.66088178366847&amp;layer=mapnik&amp;marker=41.65943899017537%2C-0.9071767330169678"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=41.65945&amp;mlon=-0.90719#map=17/41.65945/-0.90719">{{ _('Ver mapa más grande') }}</a> - <a href="https://mapsengine.google.com/map/edit?mid=zMetcmekBiFU.klCrXca9K_Pg">{{ _('Ver mapa en Google Maps') }}</a></small>
-        </div>
-    </div>
-    <br/>
-    <br/>
-
-        <div class=row>
-          <div class=col-lg-12>
-              <h1 class="text-primary text-center">{{_('Recursos útiles')}}</h1>
-              <h3>{{ _('Donde alojarse') }}</h3>
-                  <ul>
-                      <li>
-                          A 1 minuto - <a href="http://www.tryphotels.com/es/hotel-tryp-zaragoza-espana.html">{{ _('Hotel TRYP Zaragoza') }}</a>
-                      </li>
-
-                      <li>
-                          A 3 minutos - <a href="http://www.husa.es/hotel-husa-puerta-de-zaragoza.htm">{{_('Hotel USA Puerta zaragoza')}}</a>
-                      </li>
-                  </ul>
-                <h3> {{ _('Donde comer') }} </h3>
-                <ul>
-                    <li> En el hotel TRYP de enfrente</li>
-                    <li> En la estación delicias, a 2 minutos del evento a pie</li>
-                    <li> Podemos encontrar bares y restaurantes en la avenida
-                    puerta sancho, a cinco minutos del evento a pie</li>
-                </ul>
-                <h3> {{ _('Como llegar') }} </h3>
-                <ul>
-                    <li> En el autobús 42, bajando en puerta sancho</li>
-                    <li> En el autobus 51, Ci1 y Ci2 hasta la estación, y
-                    cruzando el puente peatonal</li>
-                    <li> Si vienes de fuera... ¡Esta justo enfrente de la
-                    estación! </li>
-                </ul>
-
-                <h3> {{ _('¡Descuentos!')}} </h3>
-                    <ul>
-                        <li>
-                            {{ _('¡Descarga') }} <a href="{{url_for('static', filename='renfe_descuento.pdf')}}"> {{ _('aquí')}}</a> {{ _('tu 30%% de descuento en RENFE para asistir a la conferencia!')}}
-                        </li>
-                    </ul>
-                <h3> {{ _('RSS') }} </h3>
-                <p> ¡No os perdais ningúna novedad sobre PyConES2014, seguid el
-                <a href="/recent.atom">RSS de nuestro blog!</a>
-          </div>
-      </div>
-
-
 
 
       <div class=row>
@@ -207,7 +118,8 @@
               {{ _('Puedes ponerte en contacto con nosotros <a href="mailto:pycon2014@dlabs.co">en pycon2014@dlabs.co</a>') }}
           </div>
       </div>
-      <div class="row">
+      <!--
+          <div class="row">
         <div class=col-lg-12>
             <h1 id=comoparticipar class="scrollto text-primary text-center">{{ _('Cómo participar') }}</h1>
             <p class="lead uppercase text-center">{{ _('La conferencia todavía se está gestando') }}</p>
@@ -231,29 +143,5 @@
             </ul>
         </div>
       </div>
-      <div class="row">
-        <div class=col-lg-12>
-            <h1 id=codigodeconducta class="scrollto text-primary text-center">{{ _(' Código de conducta ') }}</h1>
-            <p class="lead">
-                {{ _('Se espera todos los asistentes muestren respeto y cortesía hacia el resto
-                durante la conferencia.
-                <br/>
-                En concreto, todos los delegados, conferenciantes, expositores y voluntarios que
-                tomen parte en actividades relacionadas con PyConES deberán acatar el presente
-                código de conducta. Los organizadores cuidarán del cumplimiento de este código
-                durante el evento.
-                <br/>
-
-                PyConES aspira a crear un ambiente libre de acosos o discriminaciones por razón
-                de género, orientación sexual, discapacidad, aspecto físico, etnia o religión.
-                No se tolerará discriminación alguna bajo ninguna circunstancia.
-                <br/>
-
-                Si algún participante infringiera este código de conducta, la organización podrá
-                tomar las medidas que considere adecuadas, como la amonestación o la expulsión
-                sin derecho a reembolso.') }}
-            </p>
-
-        </div>
-      </div>
+-->
 {%endblock%}

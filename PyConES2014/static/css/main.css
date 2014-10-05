@@ -34,3 +34,11 @@ p.lead{
 h1{
     margin-top:60px;
 }
+.nav-pills{
+    z-index: auto!important;
+    position: static!important;
+    top: 0px!important;
+    background: white!important;
+    width: 50%!important;
+    margin-left: 340px!important;
+}
