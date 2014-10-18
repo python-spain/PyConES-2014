@@ -1,8 +1,37 @@
 {% extends 'base.html' %}
+{% block menu %}
+      <div style="border-bottom:1px solid #eee; padding-bottom:20px; margin-bottom:30px" class=text-center>
+          <ul class="nav nav-pills text-center" style="background:white;
+              margin-top:-20px; margin-left:80px" id=navigation>
+              <li><a onclick="window.location.href='/'"
+                  href="/">{{ _('Introducción') }}</a></li>
+              <li><a onclick="window.location.href='/info'"  href="/info">{{
+                  _('Información del evento') }}</a></li>
+              <li><a onclick="window.location.href='/talks'" href="/talks">{{ _('Charlas') }}</a></li>
+              <li><a href="/blog" onclick="window.location.href='/blog'">{{ _('Blog') }}</a></li>
+          </ul>
+          <hr style="width:470px; margin-top:0px; margin-bottom:0px"/>
+          <ul class="nav nav-pills text-center"
+              style="margin-left:360px!important; margin-bottom:-20px">
+              <li><a style="color:grey"
+                  onclick="window.location.href='/info#anteriores'"
+                  href="#anteriores">{{ _('Ediciones anteriores') }}</a></li>
+              <li><a style="color:grey"
+                  onclick="window.location.href='/info#lugar'"
+                  href="#lugar">{{ _('Lugar') }}</a></li>
+              <li><a style="color:grey"
+                  onclick="window.location.href='/info#recursos'"
+                  href="#recursos">{{ _('Recursos') }}</a></li>
+              <li><a style="color:grey"
+                  onclick="window.location.href='/info#codigo'"
+              href="#codigo">{{ _('Código de conducta') }}</a></li>
+          </ul>
+      </div>
+{% endblock %}
 {% block body %}
       <div class=row>
         <div class=col-lg-12>
-            <h1 class="text-primary text-center">{{ _('Ediciones anteriores') }}</h1>
+            <h1 id="anteriores" class="text-primary text-center">{{ _('Ediciones anteriores') }}</h1>
             <p class="lead uppercase text-center">{{ _('PyConES 2013') }}</p>
             <p class=lead>
                 {{ _('<span>La PyConES 2013 se celebró en la Universidad Politécnica de
@@ -20,7 +49,7 @@
       <div class=row>
         <div class=col-lg-12>
 
-            <h1 id=comollegar class=" scrollto text-primary text-center">{{ _('Lugar') }}</h1>
+            <h1 id=lugar class=" scrollto text-primary text-center">{{ _('Lugar') }}</h1>
             <p class="lead uppercase text-center">
                 {{ _('Etopia - Centro de Arte y Tecnología') }}
             </p>
@@ -46,7 +75,7 @@
 
         <div class=row>
           <div class=col-lg-12>
-              <h1 class="text-primary text-center">{{_('Recursos útiles')}}</h1>
+              <h1 id=recursos class="text-primary text-center">{{_('Recursos útiles')}}</h1>
               <h3>{{ _('Donde alojarse') }}</h3>
                   <ul>
                       <li>
@@ -86,12 +115,9 @@
       </div>
 
 
-
-
-
       <div class="row">
         <div class=col-lg-12>
-            <h1 id=codigodeconducta class="scrollto text-primary text-center">{{ _(' Código de conducta ') }}</h1>
+            <h1 id=codigo class="scrollto text-primary text-center">{{ _(' Código de conducta ') }}</h1>
             <p class="lead">
                 {{ _('Se espera todos los asistentes muestren respeto y cortesía hacia el resto
                 durante la conferencia.

@@ -13,6 +13,10 @@
     {%endblock%}
 
     {% block body %}
+    <h1> Horarios </h1>
+    <p> Hasta que tengamos preparada la parrilla de horarios en un formato
+    humano, podeis descargaros el ical de <a href="{{url_for('static',
+        filename='basic.ics')}}">aqui</a></p>
     <h2 class="text-center text-danger"> Contamos con {{ trello_talks|count }} charlas, {{trello_wshop|count}} talleres y {{trello_light|count}} lightning talks </h2>
     <h1 class=text-danger>Charlas</h1>
     {%for talk in trello_talks%}
