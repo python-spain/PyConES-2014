@@ -2,11 +2,13 @@
 from flask import Flask, render_template, request, g
 from flask_flatpages import FlatPages
 from flask_markdown import markdown
+from flask.ext.cache import Cache
 from werkzeug.contrib.atom import AtomFeed
 from urlparse import urljoin
 import requests
 
 app = Flask(__name__)
+cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 app.config['LANGUAGES'] = {
     'en': 'English',
     'es': 'Español',
