@@ -13,43 +13,50 @@
     {%endblock%}
 
     {% block body %}
-    <h1> Horarios </h1>
-    <p>
-    La conferencia empezará el sabado día 8 a las 9:30 y terminará el domingo
-    día 9 a las 21:00
-    </p>
-    <h2 class="text-center text-danger"> Contamos con {{ trello_talks|count }} charlas, {{trello_wshop|count}} talleres y {{trello_light|count}} lightning talks </h2>
-    <h1 class=text-danger>Charlas</h1>
-    {%for talk in trello_talks%}
-        <h1 class=text-center> {{talk.name}}</h1>
-        <div class="lead">
-            {% markdown %}
-{{ talk.desc }}
-            {%endmarkdown%}
-        </div>
-        <hr/>
-    {%endfor%}
 
-    <h1 class=text-danger>Talleres </h1>
-    {%for talk in trello_wshop%}
-        <h1 class=text-center> {{talk.name}}</h1>
-        <div class="lead">
-            {% markdown %}
-{{ talk.desc }}
-            {%endmarkdown%}
-        </div>
-        <hr/>
-    {%endfor%}
+    <img src="/static/img/pyconcabecera.png" style="margin-bottom:40px" class="img-responsive col-md-12" alt="horarios" />
+    <img src="/static/img/horariospycon.png" class="img-responsive col-md-12" alt="horarios" />
+    <img style="margin-top:110px; margin-bottom:70px;" src="/static/img/horariospycon2.png" class="img-responsive col-md-12" alt="horarios" />
+    <a onclick="$('#onlytext').show()" class=text-center href="#horarios"> <h3>Mostrar versión de texto (sin
+            horarios) </h3></a>
+    <div style="display:none" id="onlytext">
+        <h1 id=horarios> Horarios </h1>
+        <p>
+        La conferencia empezará el sabado día 8 a las 9:30 y terminará el domingo
+        día 9 a las 21:00
+        </p>
+        <h1 class=text-danger>Charlas</h1>
+        {%for talk in trello_talks%}
+            <h1 class=text-center> {{talk.name}}</h1>
+            <div class="lead">
+                {% markdown %}
+    {{ talk.desc }}
+                {%endmarkdown%}
+            </div>
+            <hr/>
+        {%endfor%}
 
-    <h1 class=text-danger>Lightning talks</h1>
-    <h1 class=text-danger>Charlas</h1>
-    {%for talk in trello_light%}
-        <h1 class=text-center> {{talk.name}}</h1>
-        <div class="lead">
-            {% markdown %}
-{{ talk.desc }}
-            {%endmarkdown%}
-        </div>
+        <h1 class=text-danger>Talleres </h1>
+        {%for talk in trello_wshop%}
+            <h1 class=text-center> {{talk.name}}</h1>
+            <div class="lead">
+                {% markdown %}
+    {{ talk.desc }}
+                {%endmarkdown%}
+            </div>
+            <hr/>
+        {%endfor%}
+
+        <h1 class=text-danger>Lightning talks</h1>
+        <h1 class=text-danger>Charlas</h1>
+        {%for talk in trello_light%}
+            <h1 class=text-center> {{talk.name}}</h1>
+            <div class="lead">
+                {% markdown %}
+    {{ talk.desc }}
+                {%endmarkdown%}
+            </div>
         <hr/>
     {%endfor%}
+    </div>
 {%endblock%}
