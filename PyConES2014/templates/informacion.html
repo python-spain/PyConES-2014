@@ -85,7 +85,7 @@
           <div class=col-lg-12>
               <h1 id=recursos class="text-primary text-center">{{_('Recursos útiles')}}</h1>
               <h3>{{ _('Donde alojarse') }}</h3>
-                  <ul>
+                  <ul class=lead>
                       <li>
                           Cruzando la acera - <a href="http://www.tryphotels.com/es/hotel-tryp-zaragoza-espana.html">{{ _('Hotel TRYP Zaragoza') }}</a>
                       </li>
@@ -96,31 +96,36 @@
                   </ul>
 
                 <h3> {{ _('Donde comer') }} </h3>
-                <p>
+                <p class=lead>
                     Hemos contactado con algunos restaurantes locales y preparado un listado de los sitios más cercanos a la conferencia para comer.
                 </p>
-                <p> <em> A menos de cinco minutos </em> </p>
-                <ul>
+                <p class=lead> <em> A menos de cinco minutos </em> </p>
+                <ul class=lead>
                     <li> El hotel TRYP - <a href="https://maps.google.com/maps?f=q&source=s_q&hl=es&geocode=&q=Hotel+TRYP+Zaragoza,+Zaragoza,+Espa%C3%B1a&aq=0&oq=hotel+tryp+zaragoza&sll=37.0625,-95.677068&sspn=64.409204,135.439453&vpsrc=6&t=h&ie=UTF8&hq=Hotel+TRYP&hnear=Zaragoza,+Arag%C3%B3n,+Espa%C3%B1a&ll=41.661491,-0.905959&spn=0.003787,0.008267&z=18&iwloc=A&cid=15988252460854509956">Cruzando la acera</a>) </li>
                     <li> El KALIKO - Calle Berna esquina con calle monaco (a dos minutos, hacen bocadillos a entre 3 y 5 euros)</li>
                     <li> El restaurante asiatico <a href="https://plus.google.com/105988518914023681966/about?gl=es&hl=es"> LIANG </a>, que nos deja el menú para grupos grandes a 12€ por persona, con bebida y postre </a></li>
+                </ul>
+
+                <p class=lead> <em> A diez minutos </em> </p>
+
+                <ul class=lead>
                     <li> El LIZARRÁN de la estación delicias </li>
                     <li> El <a href="https://plus.google.com/115433006802832838868/about?gl=es&hl=es">CERVINO</a> (espacio muy justo, pero delicioso)</li>
 
-                    <li> 
+                    <li>
                         Podemos encontrar bares y restaurantes en la avenida Puerta Sancho y la calle Pablo Gargallo, a cinco minutos del evento a pie
                     </li>
                 </ul>
 
                 <h3> {{ _('Como llegar') }} </h3>
-                <ul>
+                <ul class=lead>
                     <li> En el autobús 42, bajando en puerta sancho y andando hasta avenida de la autonomia</li>
                     <li> En el autobus 51, Ci1 y Ci2 hasta la estación, y cruzando el puente peatonal</li>
                     <li> Si vienes de fuera... ¡Esta justo enfrente de la estación! </li>
                 </ul>
 
                 <h3> {{ _('¡Descuentos!')}} </h3>
-                    <ul>
+                    <ul class=lead>
                         <li>
                             {{ _('¡Descarga') }} <a href="{{url_for('static', filename='renfe_descuento.pdf')}}"> {{ _('aquí')}}</a> {{ _('tu 30%% de descuento en RENFE para asistir a la conferencia!')}}
                         </li>
@@ -128,8 +133,10 @@
 
                 <h3> {{_('Sorteos')}} </h3>
                 <p class=lead>
+                    ¡Sorteos! La mayoria de ellos se harán en la ceremonia de
+                    clausura.
                 </p>
-                <ul>
+                <ul class=lead>
                     <li>Un viaje valorado en más de 200€ por E-Frontiers</li>
                     <li>Tres Chromecasts y 7 tazas por buguroo (que además regalará pegatinas y chapas)</li>
                     <li>Licencias de github</li>
@@ -138,16 +145,19 @@
 
                 <h3> {{_('Fiesta')}} </h3>
                 <p class=lead>
-                    ¡Todos esperamos relajarnos después de la PyConES2014! Por eso, el sábado iremos por la noche al Flaherty's<br/>
-                    Donde nos hacen un buen descuento enseñando nuestras acreditaciones: 
+                    ¡Todos esperamos relajarnos después de la PyConES2014! Por
+                    eso, el sábado iremos por la noche al <a
+                        href="http://www.pflaherty.com/zaragoza-home/">P. Flaherty</p>'s<br/>
+                    Donde nos hacen un buen descuento enseñando nuestras acreditaciones:
                     <br/>
                     - Copas a 4€ <br/>
                     - Pintas de heineken a 3€<br/>
                 </p>
 
                 <h3> {{ _('RSS') }} </h3>
-                <p> ¡No os perdais ningúna novedad sobre PyConES2014, seguid el
-                <a href="/recent.atom">RSS de nuestro blog!</a>
+                <p class=lead> ¡No os perdais ningúna novedad sobre PyConES2014, seguid el
+                    <a href="/recent.atom">RSS de nuestro blog!</a>
+                </p>
           </div>
       </div>
 
