@@ -1,0 +1,6 @@
+Flask
+Flask-Flatpages
+Flask-babel
+Flask-Markdown2
+requests
+Markdown
