@@ -28,7 +28,10 @@ markdown(app)
 def get_locale():
     available_langs = app.config["LANGUAGES"].keys()
     default_lang = request.accept_languages.best_match(available_langs)
-    res = request.args.get('lang', default_lang)
+    res = False
+    for lang in app.config['LANGUAGES'].keys():
+        if "/{}/".format(lang) in request.path:
+            res = lang
     if res not in available_langs:
         res = default_lang
     return res
@@ -39,10 +42,11 @@ def before_request():
     g.available_langs = app.config["LANGUAGES"].keys()
 
 @app.route('/blog/', methods=['GET'])
-@app.route('/blog/<language>/', methods=['GET'])
-@app.route('/blog/<language>/<post_id>')
-def blog(language="es", post_id=False):
+@app.route('/<language>/blog/', methods=['GET'])
+@app.route('/<language>/blog/<post_id>')
+def blog(language=False, post_id=False):
     language = language or g.locale
+    g.locale = language
     if not post_id:
         articles = sorted((p for p in pages if (p.meta['language'] == language)),
             key=lambda p: p.meta['published'], reverse=True)
@@ -53,12 +57,18 @@ def blog(language="es", post_id=False):
         single = True
     return render_template('blog.html', pages=articles, single=single)
 
+@app.route('/<language>/', methods=['GET'])
 @app.route('/', methods=['GET'])
-def index():
+def index(language=False):
+    language = language or g.locale
+    g.locale = language
     return render_template('index.html')
 
+@app.route('/<language>/info')
 @app.route('/info', methods=['GET'])
-def info():
+def info(language=False):
+    language = language or g.locale
+    g.locale = language
     return render_template('informacion.html')
 
 @app.route('/gallery', methods=['GET'])
@@ -69,8 +79,10 @@ def gallery():
 
 
 
-@app.route('/talks', methods=['GET'])
-def talks():
+@app.route('/<language>/talks', methods=['GET'])
+def talks(language=False):
+    language = language or g.locale
+    g.locale = language
     trello_talks = requests.get('https://api.trello.com/1/lists/53a70c099f3ce8897416347b/cards')
     trello_light = requests.get('https://api.trello.com/1/lists/53d038a3f52787e522bb6a74/cards')
     trello_wshop = requests.get('https://api.trello.com/1/lists/5412f25f85af556ea8c1e06b/cards')
