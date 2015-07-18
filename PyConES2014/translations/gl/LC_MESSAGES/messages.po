@@ -26,7 +26,7 @@ msgstr "Acerca de"
 
 #: PyConES2014/templates/base.html:62 PyConES2014/templates/blog.html:6
 msgid "Cómo llegar"
-msgstr "Cómo chegar"
+msgstr "Como chegar"
 
 #: PyConES2014/templates/base.html:63 PyConES2014/templates/blog.html:7
 #: PyConES2014/templates/index.html:89
@@ -36,7 +36,7 @@ msgstr "Patrocinadores"
 #: PyConES2014/templates/base.html:64 PyConES2014/templates/blog.html:8
 #: PyConES2014/templates/index.html:123
 msgid "Cómo participar"
-msgstr "Cómo participar"
+msgstr "Como participar"
 
 #: PyConES2014/templates/base.html:65 PyConES2014/templates/blog.html:9
 msgid "Call4Papers"
@@ -60,7 +60,7 @@ msgstr "Volver"
 
 #: PyConES2014/templates/index.html:5
 msgid "¿Qué es PyConES 2014?"
-msgstr "¿Qué é PyConES 2014?"
+msgstr "Que é PyConES 2014?"
 
 #: PyConES2014/templates/index.html:6
 msgid ""
@@ -76,7 +76,7 @@ msgid ""
 "                organización recae en el hackerspace de Zaragoza, Dlabs con la\n"
 "                colaboración de la asociación Python España y el Grupo de Python\n"
 "                Zaragoza."
-msgstr "<span class=text-primary>PyConES</span> celebrará a súa segunda edición, tralo éxito da desenvolvida o pasado ano en Madrid, baixo o formato do evento mundial <a href=\"http://pycon.org\">PyCon</a>. Nesta ocasión, a organización recae no hackerspace de Zaragoza, Dlabs coa colaboración da asociación Python España e o Grupo de Python Zaragoza."
+msgstr "<span class=text-primary>PyConES</span> celebrará a súa segunda edición, tras o éxito da desenvolvida o pasado ano en Madrid, baixo o formato do evento mundial <a href=\"http://pycon.org\">PyCon</a>. Nesta ocasión, a organización recae no hackerspace de Zaragoza, Dlabs coa colaboración da asociación Python España e o Grupo de Python Zaragoza."
 
 #: PyConES2014/templates/index.html:24
 msgid ""
@@ -87,7 +87,7 @@ msgid ""
 "                  especie de laboratorio de desarrollo abierto. Ahora mismo el\n"
 "                  hackerspace cuenta con una veintena de socios que coordinarán y\n"
 "                  organizarán el evento de este año junto a otros voluntarios."
-msgstr "Un hackerspace é un sitio físico onde xente con diversas intereses pode coñecerse, socializar e colaborar. DLabs bríndanos un espazo onde unir persoas de diversos trasfondos e especialidades compartindo coñecementos e materiais creando unha sorte de laboratorio de desenrolo aberto. Agora mesmo o hackerspace conta cunha vintena de socios que coordinarán e organizarán o evento deste ano xunto a outros voluntarios."
+msgstr "Un hackerspace é un sitio físico onde xente con diversos intereses se pode coñecer, socializar e colaborar. DLabs bríndanos un espazo onde unirnos persoas de diversos trasfondos e especialidades compartindo coñecementos e materiais creando unha especie de laboratorio de desenvolvemento aberto. Agora mesmo o hackerspace conta cunha vintena de socios que coordinarán e organizarán o evento deste ano xunto a outros voluntarios."
 
 #: PyConES2014/templates/index.html:35
 msgid ""
@@ -95,7 +95,7 @@ msgid ""
 "                   camino entre Madrid y Barcelona, con buenas comunicaciones por carretera y tren\n"
 "                   de alta velocidad, y cuenta con una buena oferta hostelera, gastronómica y de\n"
 "                   ocio nocturno, lo que la hace una ciudad ideal para la celebración de congresos."
-msgstr "Zaragoza é a quinta cidade española por tamaño. Está a medio camiño entre Madrid e Barcelona, con boas comunicacións por estrada e tren\nde alta velocidade, e conta cunha boa oferta hosteleira, gastronómica e de ocio nocturno, o que a converte nunha cidade ideal para a celebración de congresos."
+msgstr "Zaragoza é a quinta cidade española por tamaño. Está encravada a metade de camiño entre Madrid e Barcelona, con boas comunicacións por estrada e tren\nde alta velocidade, e conta cunha boa oferta hosteleira, gastronómica e de ocio nocturno, o que a fai unha cidade ideal para a celebración de congresos."
 
 #: PyConES2014/templates/index.html:44
 msgid "Ediciones anteriores"
@@ -195,7 +195,7 @@ msgid ""
 "            más veinte personas implicadas, está preparando los recursos para\n"
 "            que podáis participar y luchando por conseguir a los mejores\n"
 "            conferenciantes y las charlas más interesantes."
-msgstr "Estamos traballando arreo para poder ofrecervos unha PyConES espectacular. O noso equipo de organizadores, colaboradores, voluntarios, con máis de vinte persoas implicadas, está preparando os recursos para que poidades participar e loitando por conseguir aos mellores conferenciantes e as charlas máis interesantes."
+msgstr "Estamos a traballar duro para poder ofrecervos unha PyConES espectacular. O noso equipo de organizadores, colaboradores e voluntarios, con máis de vinte persoas implicadas, está preparando os recursos para que poidades participar e loitando por conseguir os mellores conferenciantes e as charlas máis interesantes."
 
 #: PyConES2014/templates/index.html:130
 msgid "Actualmente puedes acceder a los siguientes recursos:"
@@ -219,11 +219,11 @@ msgstr "Call for papers"
 
 #: PyConES2014/templates/index.html:141
 msgid "¡Atentos, ponentes!"
-msgstr "¡Atentos, ponentes!"
+msgstr "¡Atentos, relatores!"
 
 #: PyConES2014/templates/index.html:144
 msgid "¡Abierta la convocatoria para presentar ponencias en la PyConES 2014!"
-msgstr "¡Aberta a convocatoria para presentar ponencias na PyConES 2014!"
+msgstr "¡Aberta a convocatoria para presentar relatorios na PyConES 2014!"
 
 #: PyConES2014/templates/index.html:145
 msgid ""
@@ -231,11 +231,11 @@ msgid ""
 "                posible para facilitar el viaje y alojamiento a los ponentes de\n"
 "                PyConES 2014, además, gozarán de entrada gratuita y un regalo\n"
 "                especial que anunciaremos en la ceremonia de despedida."
-msgstr "Actualmente os patrocinios non están pechados, pero faremos todo o posible para facilita-la viaxe e aloxamento dos ponentes de PyConES 2014, ademáis, desfrutarán de entrada de balde e un agasallo especial que anunciaremos na cerimonia de despedida."
+msgstr "Actualmente os patrocinios non están pechados, pero faremos todo o posible para facilitar a viaxe e aloxamento aos relatores de PyConES 2014, ademais, gozarán de entrada gratuíta e un agasallo especial que anunciaremos na cerimonia de despedida."
 
 #: PyConES2014/templates/index.html:151
 msgid "Tipos de ponencia a presentar"
-msgstr "Tipos de ponencia a presentar"
+msgstr "Tipos de relatorio a presentar"
 
 #: PyConES2014/templates/index.html:152
 msgid "Charlas - 50 minutos de charla técnica"
@@ -243,7 +243,7 @@ msgstr "Charlas - 50 minutos de charla técnica"
 
 #: PyConES2014/templates/index.html:153
 msgid "Lightning talks - 10 minutos de ponencia o presentación de producto."
-msgstr "Lightning talks - 10 minutos de ponencia ou presentación de produto."
+msgstr "Lightning talks - 10 minutos de relatorio ou presentación de produto."
 
 #: PyConES2014/templates/index.html:154
 msgid "Talleres - entre 50 minutos y 2 horas de taller"
@@ -255,7 +255,7 @@ msgstr "Algunhas datas importantes"
 
 #: PyConES2014/templates/index.html:160
 msgid "10 de septiembre - Límite del plazo de presentación de ponencias"
-msgstr "10 de setembro - Límite do prazo de presentación de ponencias"
+msgstr "10 de setembro - Límite do prazo de presentación de relatorios"
 
 #: PyConES2014/templates/index.html:161
 msgid "3-6 noviembre - Curso de Python en Dlabs"
@@ -311,4 +311,4 @@ msgid ""
 "                Si algún participante infringiera este código de conducta, la organización podrá\n"
 "                tomar las medidas que considere adecuadas, como la amonestación o la expulsión\n"
 "                sin derecho a reembolso."
-msgstr "Agárdase que tódolos asistentes mostren respeto e cortesía cara o resto durante a conferencia.<br/>En concreto, tódolos delegados, conferenciantes, expositores e voluntarios que tomen parte en actividades relacionadas coa PyConES teñan que acatar o presente código de conduta. Os organizadores coidarán o cumprimento deste código durante o evento.<br/>PyConES aspira a crear un ambiente libre de acosos ou discriminacións por razón de xénero, orientación sexual, discapacidade, aspecto físico, etnia ou relixión. Non se tolerará discriminación algunha baixo ningunha circunstancia.<br/>Se algún participante infrinxira este código de conduta, a organización poderá tomar as medidas que considere axeitadas, como a amonestación ou a expulsión sen dereito a reembolso."
+msgstr "Esperase que tódolos asistentes mostren respeto e cortesía cara o resto durante a conferencia.<br/>En concreto, tódolos delegados, conferenciantes, expositores e voluntarios que tomen parte en actividades relacionadas coa PyConES deberán acatar o presente código de conduta. Os organizadores coidarán do cumprimento deste código durante o evento.<br/>PyConES aspira a crear un ambiente libre de acosos ou discriminacións por razón de xénero, orientación sexual, discapacidade, aspecto físico, etnia ou relixión. Non se tolerará discriminación algunha baixo ningunha circunstancia.<br/>Se algún participante infrinxise este código de conduta, a organización poderá tomar as medidas que considere axeitadas, como a amoestación ou a expulsión sen dereito a reembolso."
